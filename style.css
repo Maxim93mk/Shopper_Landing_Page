@@ -5,7 +5,10 @@
     background: none;
 }
 
-body, p, span, a {
+body,
+p,
+span,
+a {
     font-style: normal;
     font-family: 'Montserrat', sans-serif;
 }
@@ -19,17 +22,12 @@ input {
     border: none;
 }
 
-header {
-    color: #FFFFFF;
-}
-
 footer {
     font-family: 'DM Sans', sans-serif;
 }
 
 .content {
     margin: 0 auto;
-    max-width: 1440px;
     width: 100%;
 }
 
@@ -38,6 +36,7 @@ footer {
     align-items: center;
     padding-left: 85px;
     margin: 37px 85px 65px 85px;
+    justify-content: center;
 }
 
 .input_buttons_logo_header {
@@ -89,11 +88,13 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .search_logo_header button:active {
     background-color: #FFFFFF;
     border: 1px solid #10B981;
     background-image: url(./img/search_a.svg);
 }
+
 .buttons_logo_header {
     display: flex;
     align-items: center;
@@ -122,16 +123,19 @@ footer {
     margin-left: 15px;
 }
 
-.cart_logo_header:active{
+.cart_logo_header:active {
     border: 1px solid #FFFFFF;
     background-color: #10B981;
 }
-.cart_logo_header:active{
+
+.cart_logo_header:active {
     background-image: url(./img/Shopping_no.svg);
 }
-.cart_logo_header:active span{
+
+.cart_logo_header:active span {
     color: #FFFFFF;
 }
+
 .login_logo_header {
     display: flex;
     gap: 15px;
@@ -153,13 +157,33 @@ footer {
     font-weight: 500;
     margin-left: 15px;
 }
-.login_logo_header:active{
+
+.login_logo_header:active {
     border: 1px solid #10B981;
     background-color: #FFFFFF;
 }
-.login_logo_header:active{
+
+.login_logo_header:active {
     background-image: url(./img/login_a.svg);
 }
-.login_logo_header:active span{
+
+.login_logo_header:active span {
     color: #000000;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    padding: 28px 0;
+    background-color: #10B981;
+}
+
+.navigation a {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
