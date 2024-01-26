@@ -4,6 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Шрифты-->
+    <!----Montserrat---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <!----DM Sans---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap"
+        rel="stylesheet">
+    <!--Стили-->
     <link rel="stylesheet" href="style.css">
     <title>Shopper landing page</title>
 </head>
@@ -12,29 +24,20 @@
     <div class="content">
         <header>
             <div class="logo_header">
-                <ul class="logo_header_list">
-                    <li>
-                        <a>Shopper</a>
-                    </li>
-                    <li>
-                        <div class="search_logo_header">
-                            <input type="text" class="" placeholder="Search Items">
-                            <button></button>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="cart_logo_header">
-                            <img src="./img/shopping.svg" alt="Логотип корзины">
-                            <button>0 Items Added</button>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="login_logo_header">
-                            <img src="./img/login.svg" alt="Логин">
-                            <button>Login or Sign Up</button>
-                        </div>
-                    </li>
-                </ul>
+                <a href="#">Shop<span>per</span></a>
+                <div class="input_buttons_logo_header">
+                    <div class="search_logo_header">
+                        <input type="text" placeholder="Search Items">
+                        <button>
+                            <!--<img src="./img/search.svg" alt="Поиск">-->
+                        </button>
+                    </div>
+                    <div class="buttons_logo_header">
+                        <button class="cart_logo_header"><span>0 Items Added</span></button>
+                        <button class="login_logo_header"><span>Login or Sign Up</span></button>
+                    </div>
+                </div>
+
             </div>
             <div class="navigation_header">
                 <nav class="navigation">
