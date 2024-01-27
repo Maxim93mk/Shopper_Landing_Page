@@ -8,7 +8,8 @@
 body,
 p,
 span,
-a {
+a,
+h1 {
     font-style: normal;
     font-family: 'Montserrat', sans-serif;
 }
@@ -31,12 +32,13 @@ footer {
     width: 100%;
 }
 
+/* --------------HEADER------------------- */
 .logo_header {
     display: flex;
     align-items: center;
-    padding-left: 85px;
     margin: 37px 85px 65px 85px;
     justify-content: center;
+    background-color: red;
 }
 
 .input_buttons_logo_header {
@@ -60,7 +62,7 @@ footer {
 .search_logo_header {
     display: flex;
     align-items: center;
-    padding: 12px 18px 12px 32px;
+    padding: 10px 18px 10px 32px;
     border-radius: 10px;
     background: #FFFFFF;
     box-shadow: 0px 15px 50px 0px rgba(46, 131, 158, 0.07);
@@ -108,6 +110,7 @@ footer {
     align-items: center;
     padding: 18px 34px 18px 36px;
     border-radius: 30px;
+    background-color: #FFFFFF;
     border: 1px solid #10B981;
     box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.10);
     background-image: url(./img/Shopping.svg);
@@ -186,4 +189,122 @@ footer {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+/* --------------MAIN------------------- */
+/* --------SECTION Discovery_our ---------*/
+.Discovery_our {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 75px 151px 85px 85px;
+    gap: 75px;
+    background-color: red;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.discovery_out_left {
+    background-color: blue;
+    width: 50%;
+}
+
+.discovery_out_left h1 {
+    color: #2B2626;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.discovery_out_left p {
+    color: #2B2626;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 35px;
+    margin-top: 30px;
+}
+
+.discovery_out_left button {
+    margin-top: 52px;
+    border-radius: 10px;
+    background: #10B981;
+    box-shadow: 0px 25px 50px 0px rgba(132, 94, 194, 0.15);
+    padding: 22px 82px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: normal;
+    border: 1px solid #10B981;
+}
+
+.discovery_out_left button:active {
+    background: #FFFFFF;
+    color: #10B981;
+}
+
+.discovery_out_left_people {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 107px;
+
+}
+
+.discovery_out_left_people_faces {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.user_1 {
+    position: absolute;
+    left: 0;
+}
+
+.user_2 {
+    position: absolute;
+    left: 40px;
+}
+
+.user_3 {
+    position: absolute;
+    left: 80px;
+}
+
+.user_4 {
+    position: absolute;
+    left: 120px;
+}
+
+.discovery_out_left_people p {
+    margin: 0;
+    margin-left: 186px;
+    color: #2B2626;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.discovery_out_right {
+    display: flex;
+    background-color: green;
+    width: 50%;
+}
+.discovery_out_right_play_video{
+}
+.discovery_out_right_play_video_svg {
+    background-image: url(./img/face_5.svg);
+    background-repeat: no-repeat;
+    background-position: 5px;
+    margin-left: 15px;
+}
+
+.discovery_out_right_play_video_p {
+    color: #2B2626;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
 }
