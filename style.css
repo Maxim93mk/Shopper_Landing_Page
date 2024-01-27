@@ -38,7 +38,6 @@ footer {
     align-items: center;
     margin: 37px 85px 65px 85px;
     justify-content: center;
-    background-color: red;
 }
 
 .input_buttons_logo_header {
@@ -195,18 +194,16 @@ footer {
 /* --------SECTION Discovery_our ---------*/
 .Discovery_our {
     display: flex;
-    align-items: center;
     justify-content: center;
     padding: 75px 151px 85px 85px;
     gap: 75px;
-    background-color: red;
     margin: 0 auto;
     width: 100%;
 }
 
 .discovery_out_left {
-    background-color: blue;
     width: 50%;
+    margin-top: 51px;
 }
 
 .discovery_out_left h1 {
@@ -289,11 +286,13 @@ footer {
 
 .discovery_out_right {
     display: flex;
-    background-color: green;
     width: 50%;
 }
-.discovery_out_right_play_video{
+
+.discovery_out_right_play_video {
+    margin-top: 395px;
 }
+
 .discovery_out_right_play_video_svg {
     background-image: url(./img/face_5.svg);
     background-repeat: no-repeat;
@@ -307,4 +306,17 @@ footer {
     font-style: normal;
     font-weight: 500;
     line-height: 35px;
+}
+
+.discovery_earphone {
+    margin-top: 49px;
+    margin-left: 26px;
+    padding: 76px 4px 102px 4px;
+    border-radius: 136px;
+    background: #ECFEF4;
+}
+
+.star_down {
+    margin-left: 26px;
+    margin-top: 553px;
 }
