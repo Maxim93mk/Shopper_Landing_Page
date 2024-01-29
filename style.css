@@ -320,7 +320,31 @@ footer {
     margin-left: 26px;
     margin-top: 553px;
 }
-/* --------SECTION Apple_wireless---------*/
-.Apple_wireless{
 
+/* --------SECTION Apple_wireless---------*/
+.Apple_wireless {
+    display: flex;
+    justify-content: center;
+    background-color: #845EC2;
+    width: 100%;
+    padding: 73px 43px 45px 85px;
+}
+
+.Apple_wireless_left {
+    width: 50%;
+    background-color: red
+}
+
+.Apple_wireless_left h2 {
+    -webkit-text-stroke: 1px #FFFFFF;
+    color: transparent;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: normal;
+    outline: #845EC2;
+}
+
+.Apple_wireless_left_earphones {
+    display: flex;
+    gap: 33px
 }
