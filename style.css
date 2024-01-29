@@ -90,7 +90,7 @@ footer {
     background-position: center;
 }
 
-.search_logo_header button:active {
+.search_logo_header button:hover {
     background-color: #FFFFFF;
     border: 1px solid #10B981;
     background-image: url(./img/search_a.svg);
@@ -125,16 +125,16 @@ footer {
     margin-left: 15px;
 }
 
-.cart_logo_header:active {
+.cart_logo_header:hover {
     border: 1px solid #FFFFFF;
     background-color: #10B981;
 }
 
-.cart_logo_header:active {
+.cart_logo_header:hover {
     background-image: url(./img/Shopping_no.svg);
 }
 
-.cart_logo_header:active span {
+.cart_logo_header:hover span {
     color: #FFFFFF;
 }
 
@@ -160,16 +160,16 @@ footer {
     margin-left: 15px;
 }
 
-.login_logo_header:active {
+.login_logo_header:hover {
     border: 1px solid #10B981;
     background-color: #FFFFFF;
 }
 
-.login_logo_header:active {
+.login_logo_header:hover {
     background-image: url(./img/login_a.svg);
 }
 
-.login_logo_header:active span {
+.login_logo_header:hover span {
     color: #000000;
 }
 
@@ -236,7 +236,7 @@ footer {
     border: 1px solid #10B981;
 }
 
-.discovery_out_left button:active {
+.discovery_out_left button:hover {
     background: #FFFFFF;
     color: #10B981;
 }
@@ -319,4 +319,8 @@ footer {
 .star_down {
     margin-left: 26px;
     margin-top: 553px;
+}
+/* --------SECTION Apple_wireless---------*/
+.Apple_wireless{
+
 }
