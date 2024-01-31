@@ -18,6 +18,10 @@ input {
     border: none;
 }
 
+button {
+    cursor: pointer;
+}
+
 footer {
     font-family: 'DM Sans', sans-serif;
 
@@ -367,14 +371,13 @@ footer {
 }
 
 .Apple_wireless_left h2 {
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #FFFFFF;
-    color: transparent;
     font-size: 60px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     text-align: center;
+    text-shadow: 0 0 5px #FFFFFF;
+    color: #845EC2;
 }
 
 .Apple_wireless_left_earphones {
@@ -410,4 +413,5 @@ footer {
 
 .Apple_wireless_right_btn button {
     padding: 22px 70px 22px 70px;
+    box-shadow: 0px 25px 50px 0px rgba(255, 255, 255, 0.10);
 }
