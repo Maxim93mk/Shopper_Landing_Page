@@ -468,3 +468,23 @@ h3 {
 .Top_Sellers {
     padding: 121px 22px 0 85px;
 }
+.earphone_blocks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 92px;
+    gap: 93px;
+}
+.earphone_raiting{
+    padding: 23px 21px 0 21px;
+    border-radius: 15px;
+    background-color: #845EC2;
+}
+
+.Top_Sellers_block_1{
+    padding: 30px 21px 0 21px;
+}
+
+.Top_Sellers_block_2{
+    padding: 7px 21px 0 21px;
+}
