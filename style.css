@@ -465,8 +465,13 @@ h3 {
 }
 
 /* --------Top Sellers---------*/
+
 /*
 .Top_Sellers {
     padding: 121px 22px 0 85px;
 }
 */
+
+.Top_Sellers {
+    padding: 121px 22px 0 85px;
+}
