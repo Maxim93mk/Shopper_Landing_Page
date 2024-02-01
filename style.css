@@ -264,25 +264,7 @@ h3 {
     line-height: 35px;
     margin-top: 30px;
 }
-/*
-.btn_rect_violet:hover {
-    background: #845EC2;
-    color: #FFFFFF;
-    border: 1px solid #845EC2;
-}
 
-.btn_rect_green {
-    background: #845EC2;
-    color: #FFFFFF;
-    border: 1px solid #845EC2;
-}
-
-.btn_rect_green:hover {
-    background: #10B981;
-    color: #FFFFFF;
-    border: 1px solid #10B981;
-}
-*/
 .p_price {
     color: #FFFFFF;
     font-size: 31px;
@@ -316,6 +298,7 @@ h3 {
 
 .discovery_out_left p {
     color: #2B2626;
+    width: 550px;
 }
 
 .discovery_out_left h1 {
@@ -324,6 +307,7 @@ h3 {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    width: 600px;
 }
 
 .discovery_out_left_people {
@@ -331,7 +315,7 @@ h3 {
     align-items: center;
     gap: 14px;
     margin-top: 107px;
-
+    width: 110px;
 }
 
 .discovery_out_left_people_faces {
@@ -389,7 +373,7 @@ h3 {
     font-size: 21px;
     font-style: normal;
     font-weight: 500;
-    line-height: 35px;
+    text-align: center;
 }
 
 .discovery_earphone {
@@ -448,6 +432,7 @@ h3 {
 
 .Apple_wireless_right p {
     margin-top: 10px;
+    width: 500px;
 }
 
 .Apple_wireless_right_btn {
@@ -459,6 +444,7 @@ h3 {
 .Apple_wireless_right_btn button {
     padding: 22px 70px 22px 70px;
 }
+
 .Apple_wireless_right_btn button:hover {
     background: #10B981;
     color: #FFFFFF;
@@ -468,23 +454,25 @@ h3 {
 .Top_Sellers {
     padding: 121px 22px 0 85px;
 }
-.earphone_blocks{
+
+.earphone_blocks {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 92px;
     gap: 93px;
 }
-.earphone_raiting{
+
+.earphone_raiting {
     padding: 23px 21px 0 21px;
     border-radius: 15px;
     background-color: #845EC2;
 }
 
-.Top_Sellers_block_1{
+.Top_Sellers_block_1 {
     padding: 30px 21px 0 21px;
 }
 
-.Top_Sellers_block_2{
+.Top_Sellers_block_2 {
     padding: 7px 21px 0 21px;
 }
