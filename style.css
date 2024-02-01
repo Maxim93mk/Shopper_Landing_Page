@@ -282,7 +282,6 @@ h3 {
     font-weight: 600;
     line-height: normal;
 }
-
 /* --------SECTION Discovery_our ---------*/
 .Discovery_our {
     display: flex;
@@ -454,25 +453,52 @@ h3 {
 .Top_Sellers {
     padding: 121px 22px 0 85px;
 }
-
-.earphone_blocks {
+.earphone_blocks{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     margin-top: 92px;
+    background: aqua;
     gap: 93px;
 }
+.earphone_blocks_content{
+background: red ;
+}
 
+.earphone_block_no_button{
+background: #10B981;
+}
+.earphone_raiting{
+    background: wheat;
+}
+/*
 .earphone_raiting {
-    padding: 23px 21px 0 21px;
     border-radius: 15px;
-    background-color: #845EC2;
+    background-color: red;
+    position: relative;
+}
+.earphone_blocks_arrow{
+    border: none;
 }
 
-.Top_Sellers_block_1 {
-    padding: 30px 21px 0 21px;
+.earphone_description{
+    padding: 31px 76px 31px 52px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+.sale_block{
+    
+    background: #10B981;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+text-align: center;
+padding: 28px 12px;
+border-radius: 100%;
+width: 100px;
+color:#FFFFFF;
+position: relative;
+top:15px;
 }
 
-.Top_Sellers_block_2 {
-    padding: 7px 21px 0 21px;
-}
+*/
