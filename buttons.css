@@ -72,33 +72,29 @@ button {
     color: var(--first_text_color);
 }
 
-/*
-
-
-
-
- */
 /* Прямоугольные кнопки */
-/*
-.btn_rect_all {
+.btn_rect {
     border-radius: 10px;
-    background: #10B981;
+    background: var(--first_main_color);
     box-shadow: 0px 25px 50px 0px rgba(132, 94, 194, 0.15);
-    padding: 22px 82px;
+    padding: 22px 70px;
+    min-width: 263px;
+    width: fit-content;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--second_text_color);
     font-size: 21px;
     font-weight: 600;
     line-height: normal;
-    border: 1px solid #10B981;
+    border: 1px solid var(--first_main_color);
     box-shadow: 0px 25px 50px 0px rgba(255, 255, 255, 0.10);
 }
 
-.btn_rect_all:hover {
-    background: #FFFFFF;
-    color: #10B981;
+.btn_rect:hover {
+    background: var(--second_main_color);
+    color: var(--first_text_color);
 }
 
+/*
 .btn_circ_all {
     padding: 30px 33px;
     border-radius: 100%;
@@ -117,12 +113,7 @@ button {
     box-shadow: none;
 }
 
-.btn_none_rect_all {
-    border: none;
-    background-color: transparent;
-    color: #FFFFFF;
-    box-shadow: none;
-}
+
 
 .btn_blocks_circ {
     display: flex;

@@ -115,7 +115,7 @@ h3 {
 /* --------------MAIN------------------- */
 
 .p_all {
-    color: #FFFFFF;
+    color: var(--second_text_color);
     font-size: 21px;
     font-weight: 500;
     line-height: 35px;
@@ -123,7 +123,7 @@ h3 {
 }
 
 .p_price {
-    color: #FFFFFF;
+    color: var(--second_text_color);
     font-size: 31px;
     font-style: normal;
     font-weight: 400;
@@ -133,9 +133,16 @@ h3 {
 }
 
 .span_price {
-    color: #FFFFFF;
+    color: var(--second_text_color);
     font-size: 31px;
     font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.a_violet_section {
+    color: var(--second_text_color);
+    font-size: 21px;
     font-weight: 600;
     line-height: normal;
 }
@@ -153,18 +160,22 @@ h3 {
     margin-top: 51px;
 }
 
-.discovery_out_left p {
-    color: #2B2626;
-    width: 550px;
-}
-
 .discovery_out_left h1 {
-    color: #2B2626;
+    color: var(--first_text_color);
     font-size: 64px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     width: 600px;
+}
+
+.discovery_out_left p {
+    color: var(--first_text_color);
+    width: 550px;
+}
+
+.btn_buy {
+    margin-top: 52px;
 }
 
 .discovery_out_left_people {
@@ -204,7 +215,7 @@ h3 {
 .discovery_out_left_people p {
     margin: 0;
     margin-left: 186px;
-    color: #2B2626;
+    color: var(--first_text_color);
     font-size: 26px;
     font-weight: 500;
     line-height: 35px;
@@ -226,7 +237,7 @@ h3 {
 }
 
 .discovery_out_right_play_video_p {
-    color: #2B2626;
+    color: var(--first_text_color);
     font-size: 21px;
     font-style: normal;
     font-weight: 500;
@@ -238,7 +249,7 @@ h3 {
     margin-left: 26px;
     padding: 76px 4px 102px 4px;
     border-radius: 136px;
-    background: #ECFEF4;
+    background: var(--second_text_color);
 }
 
 .star_down {
@@ -251,7 +262,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #845EC2;
+    background-color: var(--second_section_color);
     padding: 73px 43px 45px 85px;
     gap: 55px;
 }
@@ -262,8 +273,8 @@ h3 {
     font-weight: 600;
     line-height: normal;
     text-align: center;
-    text-shadow: 0 0 5px #FFFFFF;
-    color: #845EC2;
+    text-shadow: 0 0 5px var(--second_text_color);
+    color: var(--second_section_color);
 }
 
 .Apple_wireless_left_earphones {
@@ -280,7 +291,7 @@ h3 {
 }
 
 .Apple_wireless_right h2 {
-    color: #FFFFFF;
+    color: var(--second_text_color);
     font-size: 44px;
     font-style: normal;
     font-weight: 600;
@@ -294,18 +305,11 @@ h3 {
 
 .Apple_wireless_right_btn {
     display: flex;
+    align-items: center;
     margin-top: 35px;
-    gap: 10px;
+    gap: 49px;
 }
 
-.Apple_wireless_right_btn button {
-    padding: 22px 70px 22px 70px;
-}
-
-.Apple_wireless_right_btn button:hover {
-    background: #10B981;
-    color: #FFFFFF;
-}
 
 /* --------Top Sellers---------*/
 .Top_Sellers {
