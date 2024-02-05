@@ -20,7 +20,10 @@ input {
     outline: none;
     border: none;
 }
-
+header, main{
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+}
 footer {
     font-family: 'DM Sans', sans-serif;
 
@@ -35,11 +38,10 @@ h3 {
     text-align: center;
 }
 
-.content {
+.conteiner {
     margin: 0 auto;
-    width: 100%;
-    font-style: normal;
-    font-family: 'Montserrat', sans-serif;
+    max-width: 1270px;
+    width: fit-content;
 }
 
 /* --------------HEADER------------------- */
@@ -152,12 +154,13 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 75px 151px 85px 85px;
     gap: 75px;
+    margin-top: 71px;
+    width: 100%;
 }
 
 .discovery_out_left {
-    margin-top: 51px;
+    width: 50%;
 }
 
 .discovery_out_left h1 {
@@ -223,6 +226,7 @@ h3 {
 
 .discovery_out_right {
     display: flex;
+    width: 50%;
 }
 
 .discovery_out_right_play_video {
@@ -263,8 +267,8 @@ h3 {
     justify-content: center;
     align-items: center;
     background-color: var(--second_section_color);
-    padding: 73px 43px 45px 85px;
     gap: 55px;
+    margin-top: 85px;
 }
 
 .Apple_wireless_left h2 {
@@ -275,6 +279,7 @@ h3 {
     text-align: center;
     text-shadow: 0 0 5px var(--second_text_color);
     color: var(--second_section_color);
+    padding-top: 73px;
 }
 
 .Apple_wireless_left_earphones {
@@ -312,6 +317,7 @@ h3 {
 
 
 /* --------Top Sellers---------*/
+/*
 .Top_Sellers {
     padding: 121px 22px 0 85px;
 }
@@ -337,7 +343,7 @@ h3 {
     background: wheat;
 }
 
-/*
+
 .earphone_raiting {
     border-radius: 15px;
     background-color: red;
