@@ -5,31 +5,28 @@ button {
 }
 
 /* Кнопка поиска  */
-.search_logo_header button {
-    border: none;
-    width: 38px;
-    height: 38px;
-    padding: 8px 8px 9px 9px;
+.search_btn {
+    border: 1px solid var(--first_main_color);
+    padding: 19px;
     border-radius: 5px;
     background-color: var(--first_main_color);
-    background-image: url(./img/search.svg);
+    background-image: url(/img/search.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.search_logo_header button:hover {
+.search_btn:hover {
     background-color: var(--second_main_color);
-    border: 1px solid var(--first_main_color);
-    background-image: url(./img/search_a.svg);
+    background-image: url(/img/search_a.svg);
 }
 
 /* Кнопки корзины и логина */
-.btns_header {
+.btns_rounded {
     display: flex;
     gap: 15px;
     align-items: center;
     justify-content: center;
-    padding: 18px 34px 18px 52px;
+    padding: 20px 36px 20px 70px;
     border-radius: 30px;
     background-color: var(--second_main_color);
     border: 1px solid var(--first_main_color);
@@ -39,37 +36,31 @@ button {
     font-size: 16px;
     font-weight: 500;
     text-align: center;
-     min-width: 175px;
-    /* width: fit-content;  */
-    background-position: left 25px center;
+    min-width: 150px;
+    width: fit-content;
+    background-position: left 35px center;
 }
 
-.btns_header:hover {
+.btns_rounded:hover {
     background-color: var(--first_main_color);
     border: 1px solid var(--second_main_color);
     color: var(--second_main_color);
 }
 
-.btns_header_cart {
-    background-image: url(./img/Shopping.svg);
+.btns_rounded_cart {
+    background-image: url(/img/Shopping.svg);
 }
 
-.btns_header_cart:hover {
-    background-image: url(./img/Shopping_no.svg);
+.btns_rounded_cart:hover {
+    background-image: url(/img/Shopping_no.svg);
 }
 
-.btns_header_login_active {
-    background-color: var(--first_main_color);
-    border: 1px solid var(--second_main_color);
-    color: var(--second_main_color);
-    background-image: url(./img/login.svg);
+.btns_rounded_login {
+    background-image: url(/img/login_a.svg);
 }
 
-.btns_header_login_active:hover {
-    background-image: url(./img/login_a.svg);
-    background-color: var(--second_main_color);
-    border: 1px solid var(--first_main_color);
-    color: var(--first_text_color);
+.btns_rounded_login:hover {
+    background-image: url(/img/login.svg);
 }
 
 /* Прямоугольные кнопки */

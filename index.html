@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
     <!--Шрифты-->
     <!----Montserrat---->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,34 +16,36 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap"
         rel="stylesheet">
     <!--Стили-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Shopper landing page</title>
 </head>
 
 <body>
     <!-- --------------HEADER------------------- -->
     <header>
-        <!-- header-logo  -->
-        <div class="header-logo">
-            <a href="#" class="header-logo-link_green">Shop<span class="header-logo-link_black">per</span></a>
-            <div class="header-logo-form">
-                <div class="search">
-                    <input type="text" placeholder="Search Items" class="search_input"></input>
-                    <button class="search_btn"></button>
-                </div>
-                <div class="header-btns">
-                    <button class="btns_rounded btns_rounded_cart">0 Items Added</button>
-                    <button class="btns_rounded btns_rounded_login">Login or Sign Up</button>
+        <div class="container">
+            <!-- header-logo  -->
+            <div class="header-logo">
+                <a href="#" class="header-logo-link_green">Shop<span class="header-logo-link_black">per</span></a>
+                <div class="header-logo-form">
+                    <div class="form-search">
+                        <input type="text" placeholder="Search Items" class="search_input"></input>
+                        <button class="search_btn"></button>
+                    </div>
+                    <div class="header-btns">
+                        <button class="btns_rounded btns_rounded_cart">0 Items Added</button>
+                        <button class="btns_rounded btns_rounded_login">Login or Sign Up</button>
+                    </div>
                 </div>
             </div>
+            <!-- header-navigation -->
+            <nav class="header-navigation">
+                <a class="link_primary" href="#">Features</a>
+                <a class="link_primary" href="#">Products</a>
+                <a class="link_primary" href="#">Blog</a>
+                <a class="link_primary" href="#">About</a>
+            </nav>
         </div>
-        <!-- header-navigation -->
-        <nav class="header-navigation">
-            <a class="link_primary" href="#">Features</a>
-            <a class="link_primary" href="#">Products</a>
-            <a class="link_primary" href="#">Blog</a>
-            <a class="link_primary" href="#">About</a>
-        </nav>
     </header>
     <!-- --------------MAIN------------------- -->
     <main>

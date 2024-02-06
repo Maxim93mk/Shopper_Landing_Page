@@ -1,0 +1,69 @@
+/* Глобальные переменные стилей */
+@import url(./variables.css);
+/* Стили параграфов, заголовков и т.п */
+@import url(./text.css);
+/* Стили ссылок */
+@import url(./links.css);
+/* Стили форм */
+@import url(./forms.css);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+}
+
+body {
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1270px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* <!-- --------------HEADER------------------- --> */
+/* <!-- header-logo  --> */
+.header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 239px;
+    padding: 37px 0;
+
+}
+
+.header-logo-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 38px;
+}
+.form-search{
+    display: flex;
+    align-items: center;
+    padding: 12px 18px 12px 32px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 50px 0px rgba(46, 131, 158, 0.07);
+}
+
+.header-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+}
+/* <!-- header-navigation --> */
+.header-navigation {
+    background-color: #10B981;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    padding: 28px 0;
+}
+
