@@ -71,5 +71,17 @@ body {
 .section-latest-products{
     width: 100%;
     background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-latest-products_left{
+    width: 50%;
+    background-color: chocolate;
+}
+.section-latest-products_right{
+    width: 50%;
+    background-color:rgb(130, 76, 134);
+    display: flex;
 }
 /* <!-- -------- section-featured-products --------- --> */
