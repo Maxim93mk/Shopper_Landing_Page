@@ -3,7 +3,7 @@ a {
 }
 
 /* Ссылка логотип - Shopper */
-.header-logo-link_green{
+.header-logo__link_green{
     color: var(--first_main_color);
     font-size: 40px;
     font-style: italic;
@@ -11,7 +11,7 @@ a {
     line-height: normal;
 }
 
-.header-logo-link_black{
+.header-logo__link_black{
     color: var(--first_text_color);
     font-style: italic;
 }

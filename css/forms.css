@@ -9,7 +9,7 @@ input {
 }
 
 /* Поле поиска */
-.search_input{
+.form-search__input{
     color: var(--input_text_color);
     font-size: 16px;
     font-weight: 500;
@@ -17,6 +17,6 @@ input {
     width: 100%;
 }
 
-.search_input::placeholder{
+.form-search__input::placeholder{
     color: var(--input_placeholder_color);
 }

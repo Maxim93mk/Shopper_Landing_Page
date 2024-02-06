@@ -51,7 +51,7 @@ body {
     box-shadow: 0px 15px 50px 0px rgba(46, 131, 158, 0.07);
 }
 
-.header-btns{
+.header__btns{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,4 +66,10 @@ body {
     gap: 75px;
     padding: 28px 0;
 }
-
+/* <!-- --------------MAIN------------------- --> */
+/* <!-- -------- section-latest-products --------- --> */
+.section-latest-products{
+    width: 100%;
+    background-color: aqua;
+}
+/* <!-- -------- section-featured-products --------- --> */

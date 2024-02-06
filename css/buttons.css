@@ -5,7 +5,7 @@ button {
 }
 
 /* Кнопка поиска  */
-.search_btn {
+.form-search__btn {
     border: 1px solid var(--first_main_color);
     padding: 19px;
     border-radius: 5px;
@@ -15,7 +15,7 @@ button {
     background-position: center;
 }
 
-.search_btn:hover {
+.form-search__btn:hover {
     background-color: var(--second_main_color);
     background-image: url(/img/search_a.svg);
 }
