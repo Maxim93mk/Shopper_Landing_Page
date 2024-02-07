@@ -43,7 +43,6 @@ footer {
     align-items: center;
     gap: 239px;
     padding: 37px 85px 63px;
-    background-color: blueviolet;
 }
 
 .header-logo-form {
@@ -80,7 +79,7 @@ footer {
 /* <!-- --------------MAIN------------------- --> */
 /* <!-- -------- section-latest-products --------- --> */
 .section-latest-products {
-    background-color: aqua;
+    background: var(--second_main_color);
 }
 
 /* <!-- section-latest-products-left --> */
@@ -88,7 +87,6 @@ footer {
     flex-direction: column;
     width: 50%;
     padding-top: 127px;
-    background-color: chocolate;
 }
 
 .discription__p_attr {
@@ -110,7 +108,6 @@ footer {
 /* <!-- section-latest-products-right --> */
 .section-latest-products-right {
     width: 50%;
-    background-color: rgb(130, 76, 134);
     align-items: start;
 }
 
@@ -125,6 +122,10 @@ footer {
     background-image: url(/img/face_5.svg);
     background-repeat: no-repeat;
     background-position: 5px;
+}
+
+.discription_primary__p_color{
+    color: var(--first_text_color);
 }
 
 .star_up {
@@ -144,5 +145,44 @@ footer {
 .star_down {
     padding-top: 628px;
 }
-
 /* <!-- -------- section-featured-products --------- --> */
+.section-featured-products{
+    margin-top: 85px;
+    padding: 73px 43px 47px 85px;
+    background:var(--second_section_color);
+}
+/* <!-- -------- section-featured-products-left --------- -->       */
+.section-featured-products-left{
+    width: 54%;
+    flex-direction: column;
+    background:var(--second_section_color);
+}
+.featured-products__img{
+    gap: 33px;
+    justify-content: flex-start;
+    padding-top: 40px;
+}
+
+.price__p_indent{
+    padding-top: 12px;
+}
+/* <!-- section-featured-products-right --> */
+.section-featured-products-right{
+    width: 46%;
+    background:var(--second_section_color);
+    flex-direction: column;
+    padding-top: 146px;
+    padding-left: 55px;
+    justify-content: flex-start;
+}
+
+.discription__p_indent{
+    padding-top: 10px;
+}
+
+.section-featured-products__control{
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
