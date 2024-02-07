@@ -119,7 +119,7 @@ footer {
 }
 
 .playVideo__svg {
-    background-image: url(/img/face_5.svg);
+    background-image: url(../img/face_5.svg);
     background-repeat: no-repeat;
     background-position: 5px;
 }
