@@ -10,14 +10,14 @@ button {
     padding: 19px;
     border-radius: 5px;
     background-color: var(--first_main_color);
-    background-image: url(./img/search.svg);
+    background-image: url(/img/search.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .form-search__btn:hover {
     background-color: var(--second_main_color);
-    background-image: url(./img/search_a.svg);
+    background-image: url(/img/search_a.svg);
 }
 
 /* Кнопки корзины и логина */
@@ -48,19 +48,19 @@ button {
 }
 
 .btns_rounded_cart {
-    background-image: url(./img/Shopping.svg);
+    background-image: url(/img/Shopping.svg);
 }
 
 .btns_rounded_cart:hover {
-    background-image: url(./img/Shopping_no.svg);
+    background-image: url(/img/Shopping_no.svg);
 }
 
 .btns_rounded_login {
-    background-image: url(./img/login_a.svg);
+    background-image: url(/img/login_a.svg);
 }
 
 .btns_rounded_login:hover {
-    background-image: url(./img/login.svg);
+    background-image: url(/img/login.svg);
 }
 
 /* Прямоугольные кнопки */
