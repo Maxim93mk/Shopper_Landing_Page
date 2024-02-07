@@ -1,0 +1,116 @@
+button {
+    cursor: pointer;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Кнопка поиска  */
+.form-search__btn {
+    border: 1px solid var(--first_main_color);
+    padding: 19px;
+    border-radius: 5px;
+    background-color: var(--first_main_color);
+    background-image: url(/img/search.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form-search__btn:hover {
+    background-color: var(--second_main_color);
+    background-image: url(/img/search_a.svg);
+}
+
+/* Кнопки корзины и логина */
+.btns_rounded {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 36px 20px 70px;
+    border-radius: 30px;
+    background-color: var(--second_main_color);
+    border: 1px solid var(--first_main_color);
+    box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.10);
+    background-repeat: no-repeat;
+    color: var(--main_text_color);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    min-width: 150px;
+    width: fit-content;
+    background-position: left 35px center;
+}
+
+.btns_rounded:hover {
+    background-color: var(--first_main_color);
+    border: 1px solid var(--second_main_color);
+    color: var(--second_main_color);
+}
+
+.btns_rounded_cart {
+    background-image: url(/img/Shopping.svg);
+}
+
+.btns_rounded_cart:hover {
+    background-image: url(/img/Shopping_no.svg);
+}
+
+.btns_rounded_login {
+    background-image: url(/img/login_a.svg);
+}
+
+.btns_rounded_login:hover {
+    background-image: url(/img/login.svg);
+}
+
+/* Прямоугольные кнопки */
+.btns_rect {
+    border-radius: 10px;
+    background: var(--first_main_color);
+    box-shadow: 0px 25px 50px 0px rgba(132, 94, 194, 0.15);
+    padding: 22px 70px;
+    min-width: 263px;
+    width: fit-content;
+    text-align: center;
+    color: var(--second_text_color);
+    font-size: 21px;
+    font-weight: 600;
+    line-height: normal;
+    border: 1px solid var(--first_main_color);
+    box-shadow: 0px 25px 50px 0px rgba(255, 255, 255, 0.10);
+}
+
+.btns_rect:hover {
+    background: var(--second_main_color);
+    color: var(--first_text_color);
+}
+
+/*
+.btn_circ_all {
+    padding: 30px 33px;
+    border-radius: 100%;
+    font-size: 26px;
+}
+
+.btn_circ_all:hover {
+    background: #10B981;
+    color: #FFFFFF;
+}
+
+.btn_none_circ_all {
+    border: none;
+    background-color: transparent;
+    color: #000000;
+    box-shadow: none;
+}
+
+
+
+.btn_blocks_circ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+    gap: 10px;
+}
+*/

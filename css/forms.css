@@ -1,0 +1,22 @@
+/* Стили кнопок */
+@import url(./buttons.css);
+
+input {
+    outline: none;
+    border: none;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Поле поиска */
+.form-search__input{
+    color: var(--input_text_color);
+    font-size: 16px;
+    font-weight: 500;
+    min-width: 150px;
+    width: 100%;
+}
+
+.form-search__input::placeholder{
+    color: var(--input_placeholder_color);
+}
