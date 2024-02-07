@@ -6,7 +6,8 @@
 @import url(./links.css);
 /* Стили форм */
 @import url(./forms.css);
-
+/* Позиционирование */
+@import url(./position.css);
 
 * {
     margin: 0;
@@ -15,9 +16,14 @@
     background: none;
 }
 
-body {
+header,
+main {
     font-style: normal;
     font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    font-family: 'DM Sans', sans-serif;
 }
 
 .container {
@@ -25,24 +31,30 @@ body {
     width: 100%;
     margin: 0 auto;
 }
-/* <!-- --------------HEADER------------------- --> */
-/* <!-- header-logo  --> */
-.header-logo {
+
+.flex-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 239px;
-    padding: 37px 0;
-
 }
 
-.header-logo-form{
+/* <!-- --------------HEADER------------------- --> */
+/* <!-- header-logo  --> */
+.header-logo {
+    gap: 239px;
+    padding: 37px 85px 63px;
+    background-color: blueviolet;
+}
+
+.header-logo-form {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 38px;
+
 }
-.form-search{
+
+.form-search {
     display: flex;
     align-items: center;
     padding: 12px 18px 12px 32px;
@@ -51,37 +63,54 @@ body {
     box-shadow: 0px 15px 50px 0px rgba(46, 131, 158, 0.07);
 }
 
-.header__btns{
+.header__btns {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 23px;
 }
+
 /* <!-- header-navigation --> */
 .header-navigation {
     background-color: #10B981;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 75px;
     padding: 28px 0;
 }
+
 /* <!-- --------------MAIN------------------- --> */
 /* <!-- -------- section-latest-products --------- --> */
-.section-latest-products{
+.section-latest-products {
     width: 100%;
     background-color: aqua;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-.section-latest-products_left{
+
+/* <!-- section-latest-products-left --> */
+.section-latest-products-left {
     width: 50%;
+    padding-top: 127px;
     background-color: chocolate;
 }
-.section-latest-products_right{
-    width: 50%;
-    background-color:rgb(130, 76, 134);
-    display: flex;
+
+.discription__p_attr {
+    color: var(--first_text_color);
+    margin-top: 30px;
+    width: 549px;
 }
+
+.btn_buy_indent {
+    margin-top: 52px;
+}
+
+.section-latest-products-right {
+    width: 50%;
+    background-color: rgb(130, 76, 134);
+}
+
+.products-rewiev {
+    display: flex;
+    align-items: center;
+    margin-top: 107px; 
+}
+
+
 /* <!-- -------- section-featured-products --------- --> */

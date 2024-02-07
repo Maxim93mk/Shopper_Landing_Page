@@ -1,0 +1,32 @@
+/* Позиционирование иконок с лицами */
+.products-rewiev__img {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.user_1 {
+    position: absolute;
+    left: 0;
+}
+
+.user_2 {
+    position: absolute;
+    left: 40px;
+}
+
+.user_3 {
+    position: absolute;
+    left: 80px;
+}
+
+.user_4 {
+    position: absolute;
+    left: 120px;
+}
+
+.products-rewiev__p_attr {
+    position: relative;
+    left: 200px;
+    width: 115px;
+} 

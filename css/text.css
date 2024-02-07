@@ -1,0 +1,22 @@
+.title_primary__h1 {
+    color: var(--first_text_color);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 600px;
+}
+
+.discription_primary__p {
+    color: var(--second_text_color);
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.products-rewiev__p{
+    color: var(--first_text_color);
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 35px;
+}

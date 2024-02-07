@@ -64,7 +64,7 @@ button {
 }
 
 /* Прямоугольные кнопки */
-.btn_rect {
+.btns_rect {
     border-radius: 10px;
     background: var(--first_main_color);
     box-shadow: 0px 25px 50px 0px rgba(132, 94, 194, 0.15);
@@ -80,7 +80,7 @@ button {
     box-shadow: 0px 25px 50px 0px rgba(255, 255, 255, 0.10);
 }
 
-.btn_rect:hover {
+.btns_rect:hover {
     background: var(--second_main_color);
     color: var(--first_text_color);
 }

@@ -22,39 +22,42 @@
 
 <body>
     <!-- --------------HEADER------------------- -->
+
     <header>
-        <div class="container">
-            <!-- header-logo  -->
-            <div class="header-logo">
-                <a href="#" class="header-logo__link_green">Shop<span class="header-logo__link_black">per</span></a>
-                <div class="header-logo-form">
-                    <div class="form-search">
-                        <input type="text" placeholder="Search Items" class="form-search__input"></input>
-                        <button class="form-search__btn"></button>
-                    </div>
-                    <div class="header__btns">
-                        <button class="btns_rounded btns_rounded_cart">0 Items Added</button>
-                        <button class="btns_rounded btns_rounded_login">Login or Sign Up</button>
-                    </div>
+        <!-- header-logo  -->
+        <div class="header-logo flex-container">
+            <a href="#" class="header-logo__link_green">Shop<span class="header-logo__link_black">per</span></a>
+            <div class="header-logo-form">
+                <div class="form-search">
+                    <input type="text" placeholder="Search Items" class="form-search__input"></input>
+                    <button class="form-search__btn"></button>
+                </div>
+                <div class="header__btns">
+                    <button class="btns_rounded btns_rounded_cart">0 Items Added</button>
+                    <button class="btns_rounded btns_rounded_login">Login or Sign Up</button>
                 </div>
             </div>
-            <!-- header-navigation -->
-            <nav class="header-navigation">
-                <a class="link_primary" href="#">Features</a>
-                <a class="link_primary" href="#">Products</a>
-                <a class="link_primary" href="#">Blog</a>
-                <a class="link_primary" href="#">About</a>
-            </nav>
         </div>
+        <!-- header-navigation -->
+        <nav class="header-navigation flex-container">
+            <a class="link_primary" href="#">Features</a>
+            <a class="link_primary" href="#">Products</a>
+            <a class="link_primary" href="#">Blog</a>
+            <a class="link_primary" href="#">About</a>
+        </nav>
     </header>
+
     <!-- --------------MAIN------------------- -->
+
     <main>
-        <div class="container">
-            <!-- -------- section-latest-products --------- -->
-            <section class="section-latest-products">
-                <div class="section-latest-products_left">
+
+        <!-- -------- section-latest-products --------- -->
+        <section class="section-latest-products ">
+            <div class="container flex-container">
+                <!-- section-latest-products-left -->
+                <div class="section-latest-products-left">
                     <h1 class="title_primary__h1">Discover Our Latest Products</h1>
-                    <p class="discription_primary__p discription_indient">Lorem ipsum is a placeholder text commonly
+                    <p class="discription_primary__p discription__p_attr">Lorem ipsum is a placeholder text commonly
                         used to demonstrate the visual form
                         of a product
                     </p>
@@ -66,10 +69,10 @@
                             <img src="/img/face_3.svg" class="user_3" alt="Пользователь 3">
                             <img src="/img/face_4.svg" class="user_4" alt="Пользователь 4">
                         </div>
-                        <p class="products-rewiev__p">15k Well Reviews</p>
+                        <p class="products-rewiev__p products-rewiev__p_attr">15k Well Reviews</p>
                     </div>
                 </div>
-                <div class="section-latest-products_right">
+                <div class="section-latest-products-right">
                     <div class="playVideo">
                         <div class="playVideo__svg">
                             <svg xmlns="http://www.w3.org/2000/svg" width="81" height="79" viewBox="0 0 81 79"
@@ -103,14 +106,15 @@
                         <img src="/img/star.svg" class="star_up" alt="Логотип звезды"></img>
                     </div>
                 </div>
-            </section>
-            <div class="container">
-                <!-- -------- section-featured-products --------- -->
-                <section class="section-featured-products">
-
-                </section>
             </div>
-        </div>
+        </section>
+        <!-- <div class="container"> -->
+        <!-- -------- section-featured-products --------- -->
+        <section class="section-featured-products">
+
+        </section>
+        <!-- </div> -->
+        <!-- </div> -->
     </main>
     <!-- --------------FOOTER------------------- -->
     <footer></footer>
