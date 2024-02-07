@@ -1,4 +1,4 @@
-/* Позиционирование иконок с лицами */
+/* Позиционирование блока products-rewiev */
 .products-rewiev__img {
     position: relative;
     display: flex;
@@ -27,6 +27,6 @@
 
 .products-rewiev__p_attr {
     position: relative;
-    left: 200px;
+    left: 205px;
     width: 115px;
-} 
+}
