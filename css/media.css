@@ -1,0 +1,16 @@
+/* Адаптирование под разные разрешения */
+/* Мобильная версия от 360px */
+@media (min-width: 360px) and (max-width: 768px) {
+}
+/* Планшетная версия от 768px */
+@media (min-width: 768px) and (max-width: 1140px) {
+}
+/* Версия для ПК от 1140px */
+@media (min-width: 1140px){
+    .btns_rounded{
+        min-width: 175px;
+    }
+    .section-latest-products{
+        padding: 0 30px;
+    }
+}
