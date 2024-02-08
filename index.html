@@ -17,6 +17,8 @@
         rel="stylesheet">
     <!--Стили-->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- Адаптирование под разные разрешения  -->
+    <link rel="stylesheet" href="./css/media.css">
     <title>Shopper landing page</title>
 </head>
 
@@ -26,16 +28,16 @@
     <header>
         <!-- header-logo  -->
         <div class="header-logo flex-container">
-            <a href="#" class="header-logo__link_green">Shop<span class="header-logo__link_black">per</span></a>
             <div class="header-logo-form">
+                <a href="#" class="header-logo__link_green">Shop<span class="header-logo__link_black">per</span></a>
                 <div class="form-search">
                     <input type="text" placeholder="Search Items" class="form-search__input"></input>
                     <button class="form-search__btn"></button>
                 </div>
-                <div class="header__btns">
-                    <button class="btns_rounded btns_rounded_cart">0 Items Added</button>
-                    <button class="btns_rounded btns_rounded_login">Login or Sign Up</button>
-                </div>
+            </div>
+            <div class="header__btns">
+                <button class="btns_rounded btns_rounded_cart">0 Items Added</button>
+                <button class="btns_rounded btns_rounded_login">Login or Sign Up</button>
             </div>
         </div>
         <!-- header-navigation -->

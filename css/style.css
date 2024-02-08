@@ -9,7 +9,7 @@
 /* Позиционирование */
 @import url(./position.css);
 /* Адаптирование под разные разрешения */
-@import url(./media.css); 
+/* @import url(./media.css);   */
 
 
 * {
@@ -44,7 +44,6 @@ footer {
 /* <!-- header-logo  --> */
 .header-logo {
     align-items: center;
-    gap: 239px;
     padding: 37px 85px 63px;
 }
 
@@ -52,7 +51,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 38px;
+    gap: 239px;
 
 }
 
@@ -69,6 +68,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 38px;
     gap: 23px;
 }
 
