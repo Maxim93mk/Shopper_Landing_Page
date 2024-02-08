@@ -3,25 +3,34 @@
 @media (min-width: 360px) and (max-width: 768px) {}
 
 /* Планшетная версия от 768px */
-@media (min-width: 768px) and (max-width: 1140px) {
+@media (max-width: 930px)  {
     .header-logo {
-        flex-direction: row;
-        gap: 139px;
-
+        gap: 30px;
+        justify-content: space-between;
+        width: 100%;
+        padding: 37px 20px 63px;
     }
 
-    /* .header-logo__link_green {}
+    .header-logo-form {
+        width: 100%;
+        /* gap: 56px;  */
+    }
 
-    .header-logo-form {} */
+    .header__btns {
+        flex-direction: row;
+        width: 100%;
+        gap: 23px;
+        margin-left: 0;
+    }
 }
 
 /* Версия для ПК от 1140px */
-@media (min-width: 1140px) {
+/* @media (min-width: 1140px) {
     .btns_rounded {
         min-width: 175px;
     }
 
     .section-latest-products {
         padding: 0 30px;
-    }
-}
+    } 
+}*/
