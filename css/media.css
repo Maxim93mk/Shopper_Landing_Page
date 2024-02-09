@@ -1,58 +1,56 @@
 /* Адаптирование под разные разрешения */
 /* Мобильная версия от 360px */
-@media (min-width: 360px) and (max-width: 768px) {
-    /* .container{
-        max-width: 1270px;
-    width: 100%;
-    margin: 0 auto; 
-    }*/
+@media (max-width: 360px){
+    :root{
+        --first_main_color: #ff23f8;
+    }
+    .container{
+        max-width: 768px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .header-logo{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        flex-direction: column;
+    }
+    .header-logo-form{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        flex-direction: column;
+    }
+    .header__btns{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .header-navigation{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 }
 
+@media (min-width: 361px) and (max-width: 768px){
+    :root{
+        --first_main_color: #ff2325;
+    }
+
+}
 /* Планшетная версия от 768px */
-@media (max-width: 930px) {
-    /* .header-logo {
-        gap: 30px;
-        justify-content: space-between;
-        width: 100%;
-        padding: 37px 20px 63px;
+@media (min-width: 769px) and (max-width: 1140px){
+    :root{
+        --first_main_color: #2325ff;
     }
-
-    .header-logo-form {
-        width: 100%;
-        gap: 56px;
-    }
-
-    .header__btns {
-        flex-direction: row;
-        width: 100%;
-        gap: 23px;
-        margin-left: 0;
-    } */
 }
-
-/* Версия для ПК от 1140px */
-/* @media (min-width: 1140px) and (max-width: 1270px) { */
-    /* @media (max-width: 1270px) {
-    .header-logo { */
-        /* padding: 37px 0px 63px; */
-    /* }
-
-    .header-logo-form { */
-        /* gap: 90px; */
-    /* }
-
-    .header__btns { */
-        /* gap: 15px; */
-    /* }
-} */
-
-/* .btns_rounded {
-        min-width: 175px;
+/* Версия на ПК от 1140px */
+@media (min-width: 1141px){
+    :root{
+        --first_main_color:#10B981;;
     }
-        padding: 37px 0px 63px;
-
-    .section-latest-products {
-        padding: 0 30px;
-    } 
 }
-*/
