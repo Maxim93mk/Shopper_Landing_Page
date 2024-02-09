@@ -8,6 +8,9 @@
 @import url(./forms.css);
 /* Позиционирование */
 @import url(./position.css);
+/* Адаптирование под разные разрешения */
+/* @import url(./media.css);   */
+
 
 * {
     margin: 0;
@@ -27,7 +30,7 @@ footer {
 }
 
 .container {
-    max-width: 1270px;
+    max-width: 1440px;
     width: 100%;
     margin: 0 auto;
 }
@@ -40,8 +43,10 @@ footer {
 /* <!-- --------------HEADER------------------- --> */
 /* <!-- header-logo  --> */
 .header-logo {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 239px;
+    gap: 38px;
     padding: 37px 85px 63px;
 }
 
@@ -49,7 +54,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 38px;
+    gap: 239px;
 
 }
 
@@ -71,28 +76,33 @@ footer {
 
 /* <!-- header-navigation --> */
 .header-navigation {
-    background-color: #10B981;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--first_main_color);
     gap: 75px;
-    padding: 28px 0;
+    padding: 28px 0px;
 }
 
 /* <!-- --------------MAIN------------------- --> */
 /* <!-- -------- section-latest-products --------- --> */
 .section-latest-products {
+    display: flex;
+    width: 100%;
     background: var(--second_main_color);
+    justify-content: center;
+    padding: 0 85px;
 }
 
 /* <!-- section-latest-products-left --> */
 .section-latest-products-left {
-    flex-direction: column;
-    width: 50%;
     padding-top: 127px;
+    width: 50%;
 }
 
 .discription__p_attr {
     color: var(--first_text_color);
     margin-top: 30px;
-    width: 549px;
 }
 
 .btn_buy_indent {
@@ -107,8 +117,9 @@ footer {
 
 /* <!-- section-latest-products-right --> */
 .section-latest-products-right {
+    display: flex;
+    justify-content: center;
     width: 50%;
-    align-items: start;
 }
 
 .playVideo {
@@ -148,19 +159,31 @@ footer {
 
 /* <!-- -------- section-featured-products --------- --> */
 .section-featured-products {
+    display: flex;
+    justify-content: center;
+    width: 100%;
     margin-top: 85px;
     padding: 73px 43px 47px 85px;
+    background: var(--second_section_color);
+    gap: 55px;
+}
+
+.section-featured-products_color {
     background: var(--second_section_color);
 }
 
 /* <!-- -------- section-featured-products-left --------- -->       */
 .section-featured-products-left {
+    display: flex;
     width: 54%;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background: var(--second_section_color);
 }
 
 .featured-products__img {
+    display: flex;
     gap: 33px;
     justify-content: flex-start;
     padding-top: 40px;
@@ -176,7 +199,6 @@ footer {
     background: var(--second_section_color);
     flex-direction: column;
     padding-top: 146px;
-    padding-left: 55px;
     justify-content: flex-start;
 }
 

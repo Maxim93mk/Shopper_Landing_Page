@@ -17,6 +17,8 @@
         rel="stylesheet">
     <!--Стили-->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- Адаптирование под разные разрешения  -->
+    <link rel="stylesheet" href="./css/media.css">
     <title>Shopper landing page</title>
 </head>
 
@@ -25,26 +27,28 @@
 
     <header>
         <!-- header-logo  -->
-        <div class="header-logo flex-container">
-            <a href="#" class="header-logo__link_green">Shop<span class="header-logo__link_black">per</span></a>
-            <div class="header-logo-form">
-                <div class="form-search">
-                    <input type="text" placeholder="Search Items" class="form-search__input"></input>
-                    <button class="form-search__btn"></button>
+        <div class="container">
+            <div class="header-logo">
+                <div class="header-logo-form">
+                    <a href="#" class="header-logo__link_green">Shop<span class="header-logo__link_black">per</span></a>
+                    <div class="form-search">
+                        <input type="text" placeholder="Search Items" class="form-search__input"></input>
+                        <button class="form-search__btn"></button>
+                    </div>
                 </div>
                 <div class="header__btns">
                     <button class="btns_rounded btns_rounded_cart">0 Items Added</button>
                     <button class="btns_rounded btns_rounded_login">Login or Sign Up</button>
                 </div>
             </div>
+            <!-- header-navigation -->
+            <nav class="header-navigation">
+                <a class="link_primary" href="#">Features</a>
+                <a class="link_primary" href="#">Products</a>
+                <a class="link_primary" href="#">Blog</a>
+                <a class="link_primary" href="#">About</a>
+            </nav>
         </div>
-        <!-- header-navigation -->
-        <nav class="header-navigation flex-container">
-            <a class="link_primary" href="#">Features</a>
-            <a class="link_primary" href="#">Products</a>
-            <a class="link_primary" href="#">Blog</a>
-            <a class="link_primary" href="#">About</a>
-        </nav>
     </header>
 
     <!-- --------------MAIN------------------- -->
@@ -52,10 +56,10 @@
     <main>
 
         <!-- -------- section-latest-products --------- -->
-        <section class="section-latest-products ">
-            <div class="container flex-container">
+        <section>
+            <div class="container section-latest-products">
                 <!-- section-latest-products-left -->
-                <div class="section-latest-products-left flex-container">
+                <div class="section-latest-products-left">
                     <h1 class="title_primary__h1">Discover Our Latest Products</h1>
                     <p class="discription_primary__p discription__p_attr">Lorem ipsum is a placeholder text commonly
                         used to demonstrate the visual form
@@ -73,7 +77,7 @@
                     </div>
                 </div>
                 <!-- section-latest-products-right -->
-                <div class="section-latest-products-right flex-container">
+                <div class="section-latest-products-right">
                     <div class="playVideo">
                         <div class="playVideo__svg">
                             <svg xmlns="http://www.w3.org/2000/svg" width="81" height="79" viewBox="0 0 81 79"
@@ -111,12 +115,12 @@
         </section>
 
         <!-- -------- section-featured-products --------- -->
-        <section class="section-featured-products">
-            <div class="container flex-container">
+        <section class="section-featured-products_color">
+            <div class="container section-featured-products">
                 <!-- -------- section-featured-products-left --------- -->
-                <div class="section-featured-products-left flex-container">
+                <div class="section-featured-products-left">
                     <h2 class="title_primary__h2">Apple wireless Airpod</h2>
-                    <div class="featured-products__img flex-container">
+                    <div class="featured-products__img">
                         <img src="./img/earphone_1.svg" alt="Наушники 1">
                         <img src="./img/earphone_2.svg" class="featured-products__img_center" alt="Наушники 2">
                         <img src="./img/earphone_3.svg" alt="Наушники 3">
@@ -125,7 +129,7 @@
                 </div>
 
                 <!-- section-featured-products-right -->
-                <div class="section-featured-products-right flex-container">
+                <div class="section-featured-products-right">
                     <h3 class="title_primary__h3 title_primary__h3_indent">Our Featured Products</h3>
                     <p class="discription_primary__p discription__p_indent">Lorem ipsum is a placeholder text commonly
                         used to demonstrate the visual form of a product</p>
