@@ -4,7 +4,8 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
 }
 
 .title_primary__h2 {
