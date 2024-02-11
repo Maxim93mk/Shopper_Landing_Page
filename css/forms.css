@@ -13,9 +13,6 @@ input {
     color: var(--input_text_color);
     font-size: 16px;
     font-weight: 500;
-    min-width: 150px;
-    max-width: 350px;
-    width: 100%;
 }
 
 .form-search__input::placeholder{
