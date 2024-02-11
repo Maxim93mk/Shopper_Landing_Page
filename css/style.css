@@ -53,7 +53,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 335px;
+    gap: 239px;
 }
 
 .form-search {
@@ -61,7 +61,8 @@ footer {
     align-items: center;
     justify-content: space-between;
     max-width: 350px;
-    /* width: 100%; */
+    min-width: 150px;
+    width: 100%;
     padding: 12px 18px 12px 32px;
     border-radius: 10px;
     background: #FFFFFF;
@@ -83,7 +84,7 @@ footer {
     background-color: var(--first_main_color);
     gap: 75px;
     padding: 28px 0px;
-    margin: 0;
+    flex-wrap: wrap;
 }
 
 /* <!-- --------------MAIN------------------- --> */

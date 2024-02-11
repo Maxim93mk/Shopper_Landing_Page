@@ -4,80 +4,33 @@
     :root {
         --first_main_color: #ff23f8;
     }
-
-    .container {
-        max-width: 768px;
-        /* min-width: 368px; */
-        width: 100%;
-        gap: 50px;
-    }
-
     /* <!-- --------------HEADER------------------- --> */
     /* <!-- header-logo  --> */
-    .header-logo {
-        padding: 30px 20px;
-        /* flex-direction: column; */
-        flex-wrap: wrap;
-    }
-
-    .header-logo-form {
-        gap: 35px;
-        /* flex-direction: column; */
-        flex-wrap: wrap;
-    }
-    .form-search{
-        max-width: 550px;
-        width: 100%;
-    }
-
-
-    .header__btns {
-        /* flex-direction: column; */
+    .header-logo{
+        flex-direction: column;
+        padding: 30px;
         align-items: normal;
     }
-
-    /* <!-- header-navigation --> */
-    .header-navigation {
-        gap: 30px;
-        /* flex-direction: column; */
+    .header-logo-form{
+        gap: 50px;
         flex-wrap: wrap;
     }
-
-    /* <!-- --------------MAIN------------------- -->  */
-    /* <!-- -------- section-latest-products --------- --> */
-    .section-latest-products {
-        flex-direction: column;
-        padding: 0 10px;
-        align-items: center;
+    .header-logo__link_green{
+        font-size: 50px;
     }
-
+    .form-search, .btns_rounded{
+        max-width: 650px;
+    }
+    .header__btns{
+        flex-direction: column;
+    }
+    .header-navigation{
+        flex-direction: column;
+        gap: 50px;
+    }
+    /* <!-- --------------MAIN------------------- --> */
     /* <!-- section-latest-products-left --> */
-    .section-latest-products-left {
-        padding-top: 30px;
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        width: 100%;
-    }
-
-    .title_primary__h1 {
-        font-size: 35px;
-    }
-
-    .discription__p_attr,
-    .btn_buy_indent,
-    .products-rewiev {
-        margin: 0;
-    }
-    .products-rewiev{
-        flex-direction: column;
-        position: relative; 
-        align-items: normal;
-    }
-    .products-rewiev__img{
-        align-items: normal;
-    }
-
+    
 }
 
 
