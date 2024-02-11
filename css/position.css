@@ -30,8 +30,9 @@
     left: 205px;
     width: 115px;
 }
+
 /* Позиционирование изображения в блоке featured-products__img  */
-.featured-products__img_center{
+.featured-products__img_center {
     position: relative;
     top: -70px;
 }
