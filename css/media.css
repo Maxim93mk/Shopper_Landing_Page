@@ -30,6 +30,27 @@
     }
     /* <!-- --------------MAIN------------------- --> */
     /* <!-- section-latest-products-left --> */
+    .section-latest-products{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .section-latest-products-left {
+        padding-top: 30px;
+        width: 100%;
+    }
+    .title_primary__h1 {
+        font-size: 62px;
+    }
+    .btn_buy_indent {
+        margin-top: 30px;
+    }
+    .products-rewiev {
+        margin-top: 50px;
+    }
+    .products-rewiev__p_attr {
+        left: 190px;
+    }
+    /* <!-- section-latest-products-right --> */
     
 }
 

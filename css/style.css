@@ -33,9 +33,6 @@ footer {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 /* <!-- --------------HEADER------------------- --> */
@@ -92,7 +89,8 @@ footer {
 .section-latest-products {
     background: var(--second_main_color);
     padding: 0 85px;
-    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* <!-- section-latest-products-left --> */
@@ -160,14 +158,13 @@ footer {
 
 /* <!-- -------- section-featured-products --------- --> */
 .section-featured-products {
-    /* display: flex;
-    justify-content: center; */
     width: 100%;
     margin-top: 85px;
     padding: 73px 43px 47px 85px;
     background: var(--second_section_color);
     gap: 55px;
-    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
 }
 
 .section-featured-products_color {
