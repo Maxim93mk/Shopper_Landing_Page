@@ -51,7 +51,33 @@
         left: 190px;
     }
     /* <!-- section-latest-products-right --> */
-    
+    .section-latest-products-right{
+        width: 100%;
+        flex-direction: column;
+    }
+    .playVideo {
+        padding-top: 70px;
+    }
+    .star_up {
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 0;
+    }
+    .read-beats {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 10px;
+        border-radius: 136px;
+        background: var(--background_earphone);
+    }
+    .star_down {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 0;
+    }
+  
 }
 
 
