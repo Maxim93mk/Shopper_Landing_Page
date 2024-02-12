@@ -41,7 +41,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     gap: 38px;
     padding: 37px 85px 63px;
 }
@@ -81,7 +80,6 @@ footer {
     background-color: var(--first_main_color);
     gap: 75px;
     padding: 28px 0px;
-    flex-wrap: wrap;
 }
 
 /* <!-- --------------MAIN------------------- --> */
