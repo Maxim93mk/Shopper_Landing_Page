@@ -1,0 +1,21 @@
+$color_1: var(--input_text_color);
+$color_2: var(--input_placeholder_color);
+$font-family_1: 'Montserrat', sans-serif;
+
+/* Стили кнопок */
+@import "./buttons.css";
+/* Поле поиска */
+input {
+	outline: none;
+	border: none;
+	font-style: normal;
+	font-family: $font-family_1;
+}
+.form-search__input {
+	color: $color_1;
+	font-size: 16px;
+	font-weight: 500;
+	&::placeholder {
+		color: $color_2;
+	}
+}

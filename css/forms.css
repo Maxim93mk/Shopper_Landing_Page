@@ -1,20 +1,22 @@
+@charset "UTF-8";
 /* Стили кнопок */
-@import url(./buttons.css);
-
-input {
-    outline: none;
-    border: none;
-    font-style: normal;
-    font-family: 'Montserrat', sans-serif;
-}
-
+@import "./buttons.css";
 /* Поле поиска */
-.form-search__input{
-    color: var(--input_text_color);
-    font-size: 16px;
-    font-weight: 500;
+input {
+  outline: none;
+  border: none;
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
 }
 
-.form-search__input::placeholder{
-    color: var(--input_placeholder_color);
+.form-search__input {
+  color: var(--input_text_color);
+  font-size: 16px;
+  font-weight: 500;
 }
+.form-search__input::-moz-placeholder {
+  color: var(--input_placeholder_color);
+}
+.form-search__input::placeholder {
+  color: var(--input_placeholder_color);
+}/*# sourceMappingURL=forms.css.map */
