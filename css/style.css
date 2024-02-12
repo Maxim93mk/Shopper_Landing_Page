@@ -9,16 +9,6 @@
 @import "./forms.css";
 /* Позиционирование */
 @import "./position.css";
-/* <!-- --------------HEADER------------------- --> */
-/* <!-- header-logo  --> */
-/* <!-- header-navigation --> */
-/* <!-- --------------MAIN------------------- --> */
-/* <!-- -------- section-latest-products --------- --> */
-/* <!-- section-latest-products-left --> */
-/* <!-- section-latest-products-right --> */
-/* <!-- -------- section-featured-products --------- --> */
-/* <!-- -------- section-featured-products-left --------- -->       */
-/* <!-- section-featured-products-right --> */
 * {
   margin: 0;
   padding: 0;
@@ -46,6 +36,8 @@ footer {
   margin: 0 auto;
 }
 
+/* <!-- --------------HEADER------------------- --> */
+/* <!-- header-logo  --> */
 .header-logo {
   display: flex;
   justify-content: center;
@@ -53,15 +45,13 @@ footer {
   gap: 38px;
   padding: 37px 85px 63px;
 }
-
 .header-logo-form {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 239px;
 }
-
-.form-search {
+.header-logo-form .form-search {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -70,17 +60,17 @@ footer {
   width: 100%;
   padding: 12px 18px 12px 32px;
   border-radius: 10px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 15px 50px 0px rgba(46, 131, 158, 0.07);
 }
-
-.header__btns {
+.header-logo .header__btns {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 23px;
 }
 
+/* <!-- header-navigation --> */
 .header-navigation {
   display: flex;
   align-items: center;
@@ -90,61 +80,55 @@ footer {
   padding: 28px 0px;
 }
 
+/* <!-- --------------MAIN------------------- --> */
+/* <!-- -------- section-latest-products --------- --> */
 .section-latest-products {
   background: var(--second_main_color);
   padding: 0 85px;
   display: flex;
   justify-content: space-between;
+  /* <!-- section-latest-products-left --> */
+  /* <!-- section-latest-products-right --> */
 }
-
 .section-latest-products-left {
   padding-top: 127px;
   width: 50%;
 }
-
-.discription__p_attr {
+.section-latest-products-left .discription__p_attr {
   color: var(--first_text_color);
   margin-top: 30px;
 }
-
-.btn_buy_indent {
+.section-latest-products-left .btn_buy_indent {
   margin-top: 52px;
 }
-
-.products-rewiev {
+.section-latest-products-left .products-rewiev {
   display: flex;
   align-items: center;
   margin-top: 107px;
 }
-
 .section-latest-products-right {
   display: flex;
   justify-content: center;
   width: 50%;
 }
-
-.playVideo {
+.section-latest-products-right .playVideo {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 504px;
 }
-
-.playVideo__svg {
+.section-latest-products-right .playVideo__svg {
   background-image: url(../img/face_5.svg);
   background-repeat: no-repeat;
   background-position: 5px;
 }
-
-.discription_primary__p_color {
+.section-latest-products-right .discription_primary__p_color {
   color: var(--first_text_color);
 }
-
-.star_up {
+.section-latest-products-right .star_up {
   padding-top: 75px;
 }
-
-.read-beats {
+.section-latest-products-right .read-beats {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -153,11 +137,11 @@ footer {
   border-radius: 136px;
   background: var(--background_earphone);
 }
-
-.star_down {
+.section-latest-products-right .star_down {
   padding-top: 628px;
 }
 
+/* <!-- -------- section-featured-products --------- --> */
 .section-featured-products {
   width: 100%;
   margin-top: 85px;
@@ -166,12 +150,9 @@ footer {
   gap: 55px;
   display: flex;
   justify-content: space-between;
+  /* <!-- -------- section-featured-products-left --------- -->       */
+  /* <!-- section-featured-products-right --> */
 }
-
-.section-featured-products_color {
-  background: var(--second_section_color);
-}
-
 .section-featured-products-left {
   display: flex;
   width: 54%;
@@ -180,18 +161,15 @@ footer {
   justify-content: center;
   background: var(--second_section_color);
 }
-
-.featured-products__img {
+.section-featured-products__img {
   display: flex;
   gap: 33px;
   justify-content: flex-start;
   padding-top: 40px;
 }
-
-.price__p_indent {
+.section-featured-products .price__p_indent {
   padding-top: 12px;
 }
-
 .section-featured-products-right {
   width: 46%;
   background: var(--second_section_color);
@@ -199,12 +177,10 @@ footer {
   padding-top: 146px;
   justify-content: flex-start;
 }
-
-.discription__p_indent {
+.section-featured-products .discription__p_indent {
   padding-top: 10px;
 }
-
-.section-featured-products__control {
+.section-featured-products .section-featured-products__control {
   padding-top: 35px;
   display: flex;
   align-items: center;
