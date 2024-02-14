@@ -215,7 +215,6 @@ footer {
 }
 .section-top-sellers .products-main {
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 29px;
@@ -227,8 +226,6 @@ footer {
   background-color: var(--top_sellers_first_product_bg_color);
   padding: 13px 21px 18px 21px;
   border-radius: 15px;
-  min-width: 361px;
-  min-height: 438px;
   height: 100%;
 }
 .section-top-sellers .products-main-block__discount {
@@ -238,6 +235,8 @@ footer {
   border-radius: 100%;
   padding: 28px 12px;
   position: relative;
+  font-size: 18px;
+  font-weight: 600;
   left: 215px;
   top: 13px;
   background-color: var(--first_main_color);
@@ -262,4 +261,21 @@ footer {
   display: flex;
   align-items: center;
   gap: 13px;
+}
+.section-top-sellers .section-top-sellers_product-2__color {
+  background-color: var(--top_sellers_second_product_bg_color);
+}
+.section-top-sellers .section-top-sellers_product-2__indent {
+  padding-top: 63px;
+}
+.section-top-sellers .products-main-block_product-2__img {
+  position: relative;
+  left: 41px;
+  top: -28px;
+}
+.section-top-sellers .section-top-sellers_product-3__discount_color {
+  background-color: var(--top_sellers_discount_thrid_product_color);
+}
+.section-top-sellers .section-top-sellers_product-3__color {
+  background-color: var(--top_sellers_third_product_bg_color);
 }/*# sourceMappingURL=style.css.map */
