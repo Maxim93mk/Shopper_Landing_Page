@@ -1,6 +1,7 @@
 $color_1: var(--first_text_color);
 $color_2: var(--second_section_color);
 $color_3: var(--second_text_color);
+$color_4: var(--raiting_text_color);
 
 .title_primary__h1 {
 	color: $color_1;
@@ -52,4 +53,16 @@ $color_3: var(--second_text_color);
 	font-style: normal;
 	font-weight: 600;
 	line-height: normal;
+}
+
+.raiting-descr {
+	color: $color_4;
+	font-size: 11px;
+	font-weight: 500;
+}
+
+.price-product-descr {
+	color: var(--first_text_color);
+	font-size: 21px;
+	font-weight: 600;
 }

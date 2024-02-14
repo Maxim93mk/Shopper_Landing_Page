@@ -55,4 +55,16 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+.raiting-descr {
+  color: var(--raiting_text_color);
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.price-product-descr {
+  color: var(--first_text_color);
+  font-size: 21px;
+  font-weight: 600;
 }/*# sourceMappingURL=text.css.map */
