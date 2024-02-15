@@ -165,4 +165,14 @@
     justify-content: flex-start;
     gap: 20px;
   }
+}
+/* <!-- Top Sellers --> */
+.section-top-sellers {
+  padding: 30px;
+}
+.section-top-sellers__btns {
+  gap: 30px;
+}
+.section-top-sellers .products {
+  margin-top: 92px;
 }/*# sourceMappingURL=media.css.map */

@@ -170,6 +170,16 @@ $background-color_2: blue;
 		}
 	}
 }
+/* <!-- Top Sellers --> */
+.section-top-sellers {
+	padding: 30px;
+	&__btns{
+		gap: 30px;
+	}
+	.products {
+		margin-top: 92px;
+	}
+}
 
 // @media (min-width: 769px) and (max-width: 1140px) {
 // 	:root {
