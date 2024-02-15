@@ -8,6 +8,7 @@ $background-color_2: var(--second_main_color);
 
 button {
 	cursor: pointer;
+	border: none;
 	font-style: normal;
 	font-family: $font-family_1;
 }
@@ -94,4 +95,12 @@ button {
 		border-radius: 50%;
 		border: 1px solid var(--first_main_color);
 	}
+}
+
+/* Стрелочные кнопки */
+.arrow_btn{
+	max-width: 64px;
+	max-height: 64px;
+	width: 100%;
+	height: 100%;
 }

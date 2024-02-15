@@ -186,12 +186,12 @@ footer {
 }
 /* <!-- Top Sellers --> */
 .section-top-sellers {
-	background-color: aqua;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 	padding-top: 121px;
+	flex-wrap: wrap;
 	&__h3 {
 		color: var(--first_text_color);
 	}
@@ -201,13 +201,19 @@ footer {
 		justify-content: center;
 		gap: 54px;
 		padding-top: 55px;
+		flex-wrap: wrap;
 	}
 	.products {
 		display: flex;
 		justify-content: center;
+		align-items: center;
 		margin-top: 92px;
-		background-color: blueviolet;
-		gap: 93px;
+		&-container {
+			display: flex;
+			justify-content: center;
+			gap: 93px;
+			flex-wrap: wrap;
+		}
 		&-main {
 			display: flex;
 			justify-content: center;
@@ -220,7 +226,14 @@ footer {
 				background-color: var(--top_sellers_first_product_bg_color);
 				padding: 13px 21px 18px 21px;
 				border-radius: 15px;
+				max-height: 570px;
+				max-width: 361px;
+				width: 100%;
 				height: 100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: end;
+				gap: 30px;
 				&__discount {
 					color: var(--second_text_color);
 					text-align: center;
@@ -230,14 +243,9 @@ footer {
 					position: relative;
 					font-size: 18px;
 					font-weight: 600;
-					left: 215px;
-					top: 13px;
+					left: 231px;
+					top: 105px;
 					background-color: var(--first_main_color);
-				}
-				&__img {
-					position: relative;
-					top: -60px;
-					left: 40px;
 				}
 				&__descr {
 					background-color: var(--product_descr_color);
@@ -261,15 +269,7 @@ footer {
 	.section-top-sellers_product-2__color {
 		background-color: var(--top_sellers_second_product_bg_color);
 	}
-	.section-top-sellers_product-2__indent {
-		padding-top: 63px;
-	}
-	.products-main-block_product-2__img {
-		position: relative;
-		left: 41px;
-		top: -28px;
-	}
-	.section-top-sellers_product-3__discount_color{
+	.section-top-sellers_product-3__discount_color {
 		background-color: var(--top_sellers_discount_thrid_product_color);
 	}
 	.section-top-sellers_product-3__color {
