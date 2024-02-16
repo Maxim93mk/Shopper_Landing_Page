@@ -165,14 +165,46 @@
     justify-content: flex-start;
     gap: 20px;
   }
-}
-/* <!-- Top Sellers --> */
-.section-top-sellers {
-  padding: 30px;
-}
-.section-top-sellers__btns {
-  gap: 30px;
-}
-.section-top-sellers .products {
-  margin-top: 92px;
+  /* <!-- Top Sellers --> */
+  .section-top-sellers {
+    padding-top: 50px;
+  }
+  .section-top-sellers__btns {
+    gap: 30px;
+    padding-top: 30px;
+  }
+  .section-top-sellers .products {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .section-top-sellers .products-container {
+    gap: 70px;
+  }
+  .section-top-sellers .products-main__btn {
+    padding: 23px 80px;
+  }
+  .section-top-sellers .products-main-block {
+    gap: 15px;
+  }
+  .section-top-sellers .products-main-block__discount {
+    left: 163px;
+    top: 77px;
+    padding: 21px 25px;
+    font-size: 16px;
+  }
+  .section-top-sellers .products-main-block__discount__btn {
+    padding: 23px 80px;
+  }
+  .section-top-sellers .products-main-block-foto-discount {
+    top: 0;
+    left: 157px;
+  }
+  .section-top-sellers .products-main-block__descr {
+    padding: 19px 30px 31px 30px;
+  }
+  .section-trending-earphones {
+    padding: 50px;
+  }
 }/*# sourceMappingURL=media.css.map */

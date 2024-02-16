@@ -230,22 +230,27 @@ footer {
 				max-width: 361px;
 				width: 100%;
 				height: 100%;
-				display: flex;
+			    display: flex;
 				flex-direction: column;
 				justify-content: end;
-				gap: 30px;
-				&__discount {
-					color: var(--second_text_color);
-					text-align: center;
-					max-width: 100px;
-					border-radius: 100%;
-					padding: 28px 12px;
-					position: relative;
-					font-size: 18px;
-					font-weight: 600;
-					left: 231px;
-					top: 105px;
-					background-color: var(--first_main_color);
+				gap: 10px;
+				&-foto {
+					display: flex;
+   					 flex-direction: column;
+				 &-discount {
+					background-color: red;
+						color: var(--second_text_color);
+						text-align: center;
+						max-width: 100px;
+						border-radius: 100%;
+						padding: 28px 12px;
+						position: relative;
+						font-size: 18px;
+						font-weight: 600;
+						left: 231px;
+						top: 60px;
+						background-color: var(--first_main_color);
+					}
 				}
 				&__descr {
 					background-color: var(--product_descr_color);
@@ -261,10 +266,12 @@ footer {
 						display: flex;
 						align-items: center;
 						gap: 13px;
+						&_star {
+							display: flex;
+						}
 					}
 				}
 			}
-		}
 	}
 	.section-top-sellers_product-2__color {
 		background-color: var(--top_sellers_second_product_bg_color);
@@ -275,6 +282,7 @@ footer {
 	.section-top-sellers_product-3__color {
 		background-color: var(--top_sellers_third_product_bg_color);
 	}
+}
 }
 /* <!--Trending Earphones --> */
 .section-trending-earphones {

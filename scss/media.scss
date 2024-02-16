@@ -169,15 +169,51 @@ $background-color_2: blue;
 			}
 		}
 	}
-}
-/* <!-- Top Sellers --> */
-.section-top-sellers {
-	padding: 30px;
-	&__btns{
-		gap: 30px;
+	/* <!-- Top Sellers --> */
+	.section-top-sellers {
+		padding-top: 50px;
+		&__btns {
+			gap: 30px;
+			padding-top: 30px;
+		}
+		.products {
+			margin-top: 50px;
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+			&-container {
+				gap: 70px;
+			}
+			&-main {
+				&__btn {
+					padding: 23px 80px;
+				}
+				&-block {
+					gap: 15px;
+					&__discount {
+						left: 163px;
+						top: 77px;
+						padding: 21px 25px;
+						font-size: 16px;
+						&__btn {
+							padding: 23px 80px;
+						}
+					}
+					&-foto {
+						&-discount {
+							top: 0;
+							left: 157px;
+						}
+					}
+					&__descr {
+						padding: 19px 30px 31px 30px;
+					}
+				}
+			}
+		}
 	}
-	.products {
-		margin-top: 92px;
+	.section-trending-earphones {
+		padding: 50px;
 	}
 }
 
