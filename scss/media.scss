@@ -64,24 +64,30 @@
 			.playVideo {
 				padding-top: 70px;
 			}
-			.star_up {
-				display: flex;
-				justify-content: flex-start;
-				padding-top: 0;
-			}
-			.read-beats {
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				margin: 0;
-				padding: 10px;
-				border-radius: 136px;
-				background: var(--background_earphone);
-			}
-			.star_down {
-				display: flex;
-				justify-content: flex-end;
-				padding-top: 0;
+			.main-beats {
+				flex-wrap: wrap;
+				 .star_up {
+					padding-top: 30px;
+				// 	display: flex;
+				// 	justify-content: flex-start;
+				// 	padding-top: 0;
+				 }
+				 .read-beats {
+					margin: 0;
+				// 	display: flex;
+				// 	justify-content: center;
+				// 	align-items: center;
+				// 	margin: 0;
+				// 	padding: 10px;
+				// 	border-radius: 136px;
+				// 	background: var(--background_earphone);
+				 }
+				 .star_down {
+				// 	display: flex;
+				// 	justify-content: flex-end;
+				 	padding: 0;
+				 padding-left: 250px;
+				 }
 			}
 		}
 	}
@@ -162,7 +168,7 @@
 	}
 }
 /* Планшетная версия от 769px до 1140px */
- @media (min-width: 769px) and (max-width: 1140px) {
+@media (min-width: 769px) and (max-width: 1140px) {
 	.container {
 		min-width: 769px;
 		max-width: 1140px;
@@ -193,5 +199,54 @@
 		flex-direction: row;
 		gap: 50px;
 	}
- }
-
+	/* <!-- --------------MAIN------------------- --> */
+	/* <!-- -------- section-latest-products --------- -->  */
+	.section-latest-products {
+		flex-direction: column;
+		padding: 30px;
+		/* <!-- section-latest-products-left --> */
+		&-left {
+			padding-top: 30px;
+			width: 100%;
+			.title_primary__h1 {
+				font-size: 62px;
+			}
+			.btn_buy_indent {
+				margin-top: 30px;
+			}
+			.products-rewiev {
+				margin-top: 50px;
+				&__p_attr {
+					left: 190px;
+				}
+			}
+		}
+		/* <!-- section-latest-products-right --> */
+		&-right {
+			width: 100%;
+			flex-direction: column;
+			.playVideo {
+				padding-top: 70px;
+			}
+			.star_up {
+				display: flex;
+				justify-content: flex-start;
+				padding-top: 0;
+			}
+			.read-beats {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin: 0;
+				padding: 10px;
+				border-radius: 136px;
+				background: var(--background_earphone);
+			}
+			.star_down {
+				display: flex;
+				justify-content: flex-end;
+				padding-top: 0;
+			}
+		}
+	}
+}
