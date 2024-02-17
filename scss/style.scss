@@ -323,6 +323,7 @@ footer {
 	flex-direction: row;
 	padding: 62px 63px 72px 60px;
 	width: 100%;
+	gap: 82px;
 	background: var(--second_section_color);
 	/* <!-- -------- section-new-launches-left --------- --> */
 	&-left {
@@ -340,7 +341,7 @@ footer {
 			&_img {
 				border-radius: 120px;
 			}
-			.section-new-launches-left__earhpones_img_top {
+			&_img_top {
 				margin-top: 50px;
 			}
 		}
@@ -349,6 +350,11 @@ footer {
 	&-right {
 		width: 50%;
 		display: flex;
+		padding-top: 73px;
 		flex-direction: column;
+		&__attr_h3{
+			padding-top: 13px;
+			font-size: 50px;
+		}
 	}
 }

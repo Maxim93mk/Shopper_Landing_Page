@@ -329,6 +329,7 @@ footer {
   flex-direction: row;
   padding: 62px 63px 72px 60px;
   width: 100%;
+  gap: 82px;
   background: var(--second_section_color);
   /* <!-- -------- section-new-launches-left --------- --> */
   /* <!-- -------- section-new-launches-right --------- --> */
@@ -350,11 +351,16 @@ footer {
 .section-new-launches-left__earhpones_img {
   border-radius: 120px;
 }
-.section-new-launches-left__earhpones .section-new-launches-left__earhpones_img_top {
+.section-new-launches-left__earhpones_img_top {
   margin-top: 50px;
 }
 .section-new-launches-right {
   width: 50%;
   display: flex;
+  padding-top: 73px;
   flex-direction: column;
+}
+.section-new-launches-right__attr_h3 {
+  padding-top: 13px;
+  font-size: 50px;
 }/*# sourceMappingURL=style.css.map */
