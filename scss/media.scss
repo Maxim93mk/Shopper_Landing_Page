@@ -203,4 +203,20 @@
 			width: 100%;
 		}
 	}
+	/* <!-- -------- section-featured-products --------- --> */
+	.section-featured-products {
+		flex-direction: column;
+		padding: 30px;
+		align-items: center;	
+		gap: 100px;
+		&-left {
+			width: 100%;
+		}
+		&-right {
+			width: 100%;
+			max-width: 635px;
+			display: flex;
+			padding-top: 0;
+		}
+	}
 }

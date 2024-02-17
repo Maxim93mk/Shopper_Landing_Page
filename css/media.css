@@ -200,4 +200,20 @@
   .section-latest-products-right {
     width: 100%;
   }
+  /* <!-- -------- section-featured-products --------- --> */
+  .section-featured-products {
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    gap: 100px;
+  }
+  .section-featured-products-left {
+    width: 100%;
+  }
+  .section-featured-products-right {
+    width: 100%;
+    max-width: 635px;
+    display: flex;
+    padding-top: 0;
+  }
 }/*# sourceMappingURL=media.css.map */
