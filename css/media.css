@@ -216,4 +216,15 @@
     display: flex;
     padding-top: 0;
   }
+  /* <!-- Top Sellers --> */
+  /* <!--Trending Earphones --> */
+  .section-top-sellers {
+    padding: 30px;
+  }
+  .section-top-sellers .products {
+    flex-direction: column;
+  }
+  .section-top-sellers .products .arrow_btn {
+    margin: 30px;
+  }
 }/*# sourceMappingURL=media.css.map */

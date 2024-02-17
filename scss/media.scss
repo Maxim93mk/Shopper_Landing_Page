@@ -207,7 +207,7 @@
 	.section-featured-products {
 		flex-direction: column;
 		padding: 30px;
-		align-items: center;	
+		align-items: center;
 		gap: 100px;
 		&-left {
 			width: 100%;
@@ -217,6 +217,17 @@
 			max-width: 635px;
 			display: flex;
 			padding-top: 0;
+		}
+	}
+	/* <!-- Top Sellers --> */
+	/* <!--Trending Earphones --> */
+	.section-top-sellers {
+		padding: 30px;
+		.products {
+			flex-direction: column;
+			.arrow_btn{
+				margin: 30px;
+			}
 		}
 	}
 }
