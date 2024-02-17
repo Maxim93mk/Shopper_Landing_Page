@@ -151,12 +151,13 @@
   .section-trending-earphones {
     padding: 50px;
   }
+  /* <!--New Launches--> */
 }
 /* Планшетная версия от 769px до 1140px */
-@media (min-width: 769px) and (max-width: 1140px) {
+@media (min-width: 769px) and (max-width: 1225px) {
   .container {
     min-width: 769px;
-    max-width: 1140px;
+    max-width: 1225px;
     width: 100%;
   }
   .header-logo {
@@ -227,4 +228,5 @@
   .section-top-sellers .products .arrow_btn {
     margin: 30px;
   }
+  /* <!--New Launches--> */
 }/*# sourceMappingURL=media.css.map */

@@ -104,3 +104,13 @@ button {
 	width: 100%;
 	height: 100%;
 }
+
+.arrow_btn_circ{
+	max-width: 48px;
+	max-height: 48px;
+	width: 100%;
+	height: 100%;
+	padding: 9px;
+	background-color: var(--first_main_color);
+	border-radius: 100%;
+}
