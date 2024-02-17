@@ -93,6 +93,9 @@ footer {
 .section-latest-products-left {
   padding-top: 127px;
   width: 50%;
+  max-width: 635px;
+  display: flex;
+  flex-direction: column;
 }
 .section-latest-products-left .discription__p_attr {
   color: var(--first_text_color);

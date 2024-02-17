@@ -188,6 +188,7 @@
   /* <!-- -------- section-latest-products --------- -->  */
   .section-latest-products {
     flex-direction: column;
+    align-items: center;
     padding: 30px;
     /* <!-- section-latest-products-left --> */
     /* <!-- section-latest-products-right --> */
@@ -196,42 +197,7 @@
     padding-top: 30px;
     width: 100%;
   }
-  .section-latest-products-left .title_primary__h1 {
-    font-size: 62px;
-  }
-  .section-latest-products-left .btn_buy_indent {
-    margin-top: 30px;
-  }
-  .section-latest-products-left .products-rewiev {
-    margin-top: 50px;
-  }
-  .section-latest-products-left .products-rewiev__p_attr {
-    left: 190px;
-  }
   .section-latest-products-right {
     width: 100%;
-    flex-direction: column;
-  }
-  .section-latest-products-right .playVideo {
-    padding-top: 70px;
-  }
-  .section-latest-products-right .star_up {
-    display: flex;
-    justify-content: flex-start;
-    padding-top: 0;
-  }
-  .section-latest-products-right .read-beats {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 10px;
-    border-radius: 136px;
-    background: var(--background_earphone);
-  }
-  .section-latest-products-right .star_down {
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 0;
   }
 }/*# sourceMappingURL=media.css.map */

@@ -191,50 +191,16 @@
 	/* <!-- -------- section-latest-products --------- -->  */
 	.section-latest-products {
 		flex-direction: column;
+		align-items: center;
 		padding: 30px;
 		/* <!-- section-latest-products-left --> */
 		&-left {
 			padding-top: 30px;
 			width: 100%;
-			.title_primary__h1 {
-				font-size: 62px;
-			}
-			.btn_buy_indent {
-				margin-top: 30px;
-			}
-			.products-rewiev {
-				margin-top: 50px;
-				&__p_attr {
-					left: 190px;
-				}
-			}
 		}
 		/* <!-- section-latest-products-right --> */
 		&-right {
 			width: 100%;
-			flex-direction: column;
-			.playVideo {
-				padding-top: 70px;
-			}
-			.star_up {
-				display: flex;
-				justify-content: flex-start;
-				padding-top: 0;
-			}
-			.read-beats {
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				margin: 0;
-				padding: 10px;
-				border-radius: 136px;
-				background: var(--background_earphone);
-			}
-			.star_down {
-				display: flex;
-				justify-content: flex-end;
-				padding-top: 0;
-			}
 		}
 	}
 }
