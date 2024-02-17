@@ -65,29 +65,17 @@
 				padding-top: 70px;
 			}
 			.main-beats {
-				flex-wrap: wrap;
-				 .star_up {
+				flex-direction: column;
+				.star_up {
 					padding-top: 30px;
-				// 	display: flex;
-				// 	justify-content: flex-start;
-				// 	padding-top: 0;
-				 }
-				 .read-beats {
+				}
+				.read-beats {
 					margin: 0;
-				// 	display: flex;
-				// 	justify-content: center;
-				// 	align-items: center;
-				// 	margin: 0;
-				// 	padding: 10px;
-				// 	border-radius: 136px;
-				// 	background: var(--background_earphone);
-				 }
-				 .star_down {
-				// 	display: flex;
-				// 	justify-content: flex-end;
-				 	padding: 0;
-				 padding-left: 250px;
-				 }
+				}
+				.star_down {
+					padding: 0;
+					padding-left: 250px;
+				}
 			}
 		}
 	}

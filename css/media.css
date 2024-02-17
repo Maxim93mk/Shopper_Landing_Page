@@ -68,7 +68,7 @@
     padding-top: 70px;
   }
   .section-latest-products-right .main-beats {
-    flex-wrap: wrap;
+    flex-direction: column;
   }
   .section-latest-products-right .main-beats .star_up {
     padding-top: 30px;

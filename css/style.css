@@ -109,6 +109,7 @@ footer {
 .section-latest-products-right {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 50%;
 }
 .section-latest-products-right .playVideo {
