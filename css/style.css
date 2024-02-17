@@ -93,6 +93,9 @@ footer {
 .section-latest-products-left {
   padding-top: 127px;
   width: 50%;
+  max-width: 635px;
+  display: flex;
+  flex-direction: column;
 }
 .section-latest-products-left .discription__p_attr {
   color: var(--first_text_color);
@@ -109,6 +112,7 @@ footer {
 .section-latest-products-right {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 50%;
 }
 .section-latest-products-right .playVideo {
@@ -122,23 +126,27 @@ footer {
   background-repeat: no-repeat;
   background-position: 5px;
 }
-.section-latest-products-right .discription_primary__p_color {
+.section-latest-products-right .playVideo .discription_primary__p_color {
   color: var(--first_text_color);
 }
-.section-latest-products-right .star_up {
+.section-latest-products-right .main-beats {
+  display: flex;
+}
+.section-latest-products-right .main-beats .star_up {
   padding-top: 75px;
 }
-.section-latest-products-right .read-beats {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.section-latest-products-right .main-beats .read-beats {
   margin-top: 100px;
   padding: 76px 4px 102px;
+  max-height: 477px;
+  height: 100%;
+  max-width: 272px;
+  width: 100%;
   border-radius: 136px;
   background: var(--background_earphone);
 }
-.section-latest-products-right .star_down {
-  padding-top: 628px;
+.section-latest-products-right .main-beats .star_down {
+  padding-top: 550px;
 }
 
 /* <!-- -------- section-featured-products --------- --> */
@@ -185,4 +193,125 @@ footer {
   display: flex;
   align-items: center;
   gap: 50px;
+}
+
+/* <!-- Top Sellers --> */
+.section-top-sellers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 121px;
+  flex-wrap: wrap;
+}
+.section-top-sellers__h3 {
+  color: var(--first_text_color);
+}
+.section-top-sellers__btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 54px;
+  padding-top: 55px;
+  flex-wrap: wrap;
+}
+.section-top-sellers .products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 92px;
+}
+.section-top-sellers .products-container {
+  display: flex;
+  justify-content: center;
+  gap: 93px;
+  flex-wrap: wrap;
+}
+.section-top-sellers .products-main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 29px;
+}
+.section-top-sellers .products-main__btn {
+  padding: 23px 120px;
+}
+.section-top-sellers .products-main-block {
+  background-color: var(--top_sellers_first_product_bg_color);
+  padding: 13px 21px 18px 21px;
+  border-radius: 15px;
+  max-height: 570px;
+  max-width: 361px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 10px;
+}
+.section-top-sellers .products-main-block-foto {
+  display: flex;
+  flex-direction: column;
+}
+.section-top-sellers .products-main-block-foto-discount {
+  background-color: red;
+  color: var(--second_text_color);
+  text-align: center;
+  max-width: 100px;
+  border-radius: 100%;
+  padding: 28px 12px;
+  position: relative;
+  font-size: 18px;
+  font-weight: 600;
+  left: 231px;
+  top: 60px;
+  background-color: var(--first_main_color);
+}
+.section-top-sellers .products-main-block__descr {
+  background-color: var(--product_descr_color);
+  padding: 31px 76px 31px 52px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.section-top-sellers .products-main-block__descr__p_color {
+  color: var(--first_text_color);
+}
+.section-top-sellers .products-main-block__descr__raiting {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.section-top-sellers .products-main-block__descr__raiting_star {
+  display: flex;
+}
+.section-top-sellers .products .section-top-sellers_product-2__color {
+  background-color: var(--top_sellers_second_product_bg_color);
+}
+.section-top-sellers .products .section-top-sellers_product-3__discount_color {
+  background-color: var(--top_sellers_discount_thrid_product_color);
+}
+.section-top-sellers .products .section-top-sellers_product-3__color {
+  background-color: var(--top_sellers_third_product_bg_color);
+}
+
+/* <!--Trending Earphones --> */
+.section-trending-earphones {
+  padding-top: 139px;
+}
+.section-trending-earphones .section-trending-earphones_product-1__color {
+  background-color: var(--trending_earphones_first_product_bg_color);
+}
+.section-trending-earphones .section-trending-earphones_product-2__color {
+  background-color: var(--trending_earphones_second_product_bg_color);
+}
+.section-trending-earphones .section-trending-earphones_product-3__color {
+  background-color: var(--trending_earphones_third_product_bg_color);
+}
+.section-trending-earphones .section-trending-earphones_product-1__discount_color {
+  background-color: var(--trending_earphones_discount_first_product_color);
+}
+.section-trending-earphones .section-trending-earphones_product-3__discount_color {
+  background-color: var(--trending_earphones_discount_third_product_color);
 }/*# sourceMappingURL=style.css.map */
