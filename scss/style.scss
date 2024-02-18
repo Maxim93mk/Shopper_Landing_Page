@@ -450,3 +450,32 @@ footer {
 		}
 	}
 }
+.end {
+	display: flex;
+	margin-top: 115px;
+	flex-direction: row;
+	width: 100%;
+	gap: 660px;
+	&-left {
+		display: flex;
+		&_ul {
+			display: flex;
+			gap: 39px;
+			list-style: none;
+			&_a {
+				font-size: 15px;
+				font-weight: 400;
+				color: var(--first_text_color);
+			}
+		}
+	}
+	&-right {
+		display: flex;
+		align-items: center;
+		&_ul {
+			list-style: none;
+			display: flex;
+			gap: 40px;
+		}
+	}
+}

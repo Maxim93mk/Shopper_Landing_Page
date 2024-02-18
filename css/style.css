@@ -456,4 +456,34 @@ footer {
   color: var(--first_text_color);
   font-size: 15px;
   font-weight: 400;
+}
+
+.end {
+  display: flex;
+  margin-top: 115px;
+  flex-direction: row;
+  width: 100%;
+  gap: 660px;
+}
+.end-left {
+  display: flex;
+}
+.end-left_ul {
+  display: flex;
+  gap: 39px;
+  list-style: none;
+}
+.end-left_ul_a {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--first_text_color);
+}
+.end-right {
+  display: flex;
+  align-items: center;
+}
+.end-right_ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
 }/*# sourceMappingURL=style.css.map */
