@@ -410,4 +410,50 @@ footer {
   font-size: 22px;
   font-weight: 400;
   color: var(--first_text_color);
+}
+.footer-block .center {
+  display: flex;
+  margin-top: 40px;
+  gap: 150px;
+}
+.footer-block .center-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+.footer-block .center-left__email-descr {
+  font-size: 22px;
+  font-weight: 400;
+  max-width: 165px;
+  line-height: 29px;
+  letter-spacing: -0.3px;
+  width: 100%;
+}
+.footer-block .center-left__email-form {
+  display: flex;
+  border-bottom: 1px solid var(--footer_start_section_color_border_bottom);
+  align-items: center;
+  max-width: 289px;
+  width: 100%;
+}
+.footer-block .center-right {
+  display: flex;
+  gap: 172px;
+}
+.footer-block .center-right_ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+}
+.footer-block .center-right_ul-title {
+  color: var(--first_main_color);
+  font-size: 17px;
+  font-weight: 400;
+}
+.footer-block .center-right_ul_a {
+  color: var(--first_text_color);
+  font-size: 15px;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */
