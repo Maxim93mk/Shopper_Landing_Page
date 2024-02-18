@@ -80,6 +80,22 @@ button {
   color: var(--first_text_color);
 }
 
+.btns_rect_other {
+  max-width: 175px;
+  width: 100%;
+  background: var(--first_main_color);
+  padding: 14px 20px;
+  border: 1px solid var(--first_main_color);
+  color: var(--second_text_color);
+  font-family: "DM Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+.btns_rect_other:hover {
+  background: var(--second_main_color);
+  color: var(--first_text_color);
+}
+
 /* Овальные кнопки */
 .circ_btn {
   font-size: 26px;

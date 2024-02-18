@@ -3,6 +3,7 @@ $color_2: var(--second_main_color);
 $color_3: var(--second_text_color);
 $color_4: var(--first_text_color);
 $font-family_1: "Montserrat", sans-serif;
+$font-family_2: "DM Sans", sans-serif;
 $background-color_1: var(--first_main_color);
 $background-color_2: var(--second_main_color);
 
@@ -81,6 +82,22 @@ button {
 		background: var(--second_main_color);
 		color: $color_4;
 	}
+}
+.btns_rect_other{
+	max-width: 175px;
+	width: 100%;
+	background: var(--first_main_color);
+	padding: 14px 20px;
+	border: 1px solid var(--first_main_color);
+	color: $color_3;
+	font-family: $font-family_2;
+	font-size: 17px;
+	font-weight: 700;
+	&:hover {
+		background: var(--second_main_color);
+		color: $color_4;
+	}
+
 }
 /* Овальные кнопки */
 .circ_btn {

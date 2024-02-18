@@ -382,3 +382,25 @@ footer {
 		}
 	}
 }
+/* <!-- --------------FOOTER------------------- --> */
+.footer-block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 130px 185px;
+	.start {
+		display: flex;
+		gap: 40px;
+		width: 100%;
+		justify-content: flex-end;
+		padding-bottom: 41px;
+		align-items: center;
+		border-bottom: 1px solid var(--footer_start_section_color_border_bottom);
+		&_p {
+			font-size: 22px;
+			font-weight: 400;
+			color: var(--first_text_color);
+		}
+	}
+}

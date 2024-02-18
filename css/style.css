@@ -387,4 +387,27 @@ footer {
 }
 .section-new-launches-right-list__control_attr {
   padding: 22px 90px;
+}
+
+/* <!-- --------------FOOTER------------------- --> */
+.footer-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 130px 185px;
+}
+.footer-block .start {
+  display: flex;
+  gap: 40px;
+  width: 100%;
+  justify-content: flex-end;
+  padding-bottom: 41px;
+  align-items: center;
+  border-bottom: 1px solid var(--footer_start_section_color_border_bottom);
+}
+.footer-block .start_p {
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--first_text_color);
 }/*# sourceMappingURL=style.css.map */
