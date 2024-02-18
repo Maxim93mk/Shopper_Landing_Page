@@ -80,6 +80,22 @@ button {
   color: var(--first_text_color);
 }
 
+.btns_rect_other {
+  max-width: 175px;
+  width: 100%;
+  background: var(--first_main_color);
+  padding: 14px 20px;
+  border: 1px solid var(--first_main_color);
+  color: var(--second_text_color);
+  font-family: "DM Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+.btns_rect_other:hover {
+  background: var(--second_main_color);
+  color: var(--first_text_color);
+}
+
 /* Овальные кнопки */
 .circ_btn {
   font-size: 26px;
@@ -101,4 +117,53 @@ button {
   max-height: 64px;
   width: 100%;
   height: 100%;
+}
+
+.arrow_btn_circ {
+  max-width: 48px;
+  max-height: 48px;
+  width: 100%;
+  height: 100%;
+  padding: 9px;
+  background-color: var(--first_main_color);
+  border-radius: 100%;
+}
+
+/* Круглые кнопки выбора цвета */
+.circ_btn_switch_color {
+  max-width: 43px;
+  max-height: 43px;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  padding: 20px;
+}
+.circ_btn_switch_color:hover {
+  border: 1px solid var(--new_launches_switch_btn_color_hover);
+}
+.circ_btn_switch_color_1 {
+  border: 1px solid var(--new_launches_switch_btn_color_1);
+  background-color: var(--new_launches_switch_btn_color_1);
+}
+.circ_btn_switch_color_2 {
+  border: 1px solid var(--new_launches_switch_btn_color_2);
+  background-color: var(--new_launches_switch_btn_color_2);
+}
+.circ_btn_switch_color_3 {
+  border: 1px solid var(--new_launches_switch_btn_color_3);
+  background-color: var(--new_launches_switch_btn_color_3);
+}
+
+/* Кнопка подтверждения e-mail */
+.center-left__email-form__button {
+  border-radius: 8px 8px 0px 0px;
+  max-width: 50px;
+  max-height: 50px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/email_arr.svg);
+  background-position: center;
+  padding: 25px;
+  background-color: var(--first_main_color);
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=buttons.css.map */
