@@ -181,6 +181,30 @@
   .section-new-launches-right-list__control_attr {
     padding: 22px 40px;
   }
+  /* <!-- --------------FOOTER------------------- --> */
+  .footer-block {
+    padding: 30px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .footer-block .start {
+    flex-wrap: wrap;
+  }
+  .footer-block .center {
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+  }
+  .footer-block .center-right {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .footer-block .end {
+    flex-wrap: wrap;
+    gap: 50px;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
 }
 /* Планшетная версия от 769px до 1140px */
 @media (min-width: 769px) and (max-width: 1225px) {
@@ -294,5 +318,29 @@
   }
   .section-new-launches-right-list__control_attr {
     padding: 22px 40px;
+  }
+  /* <!-- --------------FOOTER------------------- --> */
+  .footer-block {
+    padding: 30px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .footer-block .start {
+    flex-wrap: wrap;
+  }
+  .footer-block .center {
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+  }
+  .footer-block .center-right {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .footer-block .end {
+    flex-wrap: wrap;
+    gap: 50px;
+    width: -moz-fit-content;
+    width: fit-content;
   }
 }/*# sourceMappingURL=media.css.map */

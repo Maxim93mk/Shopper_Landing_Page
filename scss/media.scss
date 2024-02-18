@@ -186,6 +186,29 @@
 			}
 		}
 	}
+	/* <!-- --------------FOOTER------------------- --> */
+	.footer-block {
+		padding: 30px;
+		flex-wrap: wrap;
+		flex-direction: row;
+		.start {
+			flex-wrap: wrap;
+		}
+		.center {
+			flex-wrap: wrap;
+			gap: 70px;
+			justify-content: center;
+			&-right {
+				flex-wrap: wrap;
+				gap: 50px;
+			}
+		}
+		.end {
+			flex-wrap: wrap;
+			gap: 50px;
+			width: fit-content;
+		}
+	}
 }
 /* Планшетная версия от 769px до 1140px */
 @media (min-width: 769px) and (max-width: 1225px) {
@@ -298,6 +321,29 @@
 					}
 				}
 			}
+		}
+	}
+	/* <!-- --------------FOOTER------------------- --> */
+	.footer-block {
+		padding: 30px;
+		flex-wrap: wrap;
+		flex-direction: row;
+		.start {
+			flex-wrap: wrap;
+		}
+		.center {
+			flex-wrap: wrap;
+			gap: 70px;
+			justify-content: center;
+			&-right {
+				flex-wrap: wrap;
+				gap: 50px;
+			}
+		}
+		.end {
+			flex-wrap: wrap;
+			gap: 50px;
+			width: fit-content;
 		}
 	}
 }
