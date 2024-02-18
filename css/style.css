@@ -327,9 +327,9 @@ footer {
 .section-new-launches {
   display: flex;
   flex-direction: row;
-  padding: 62px 63px 72px 60px;
+  padding: 62px 63px 38px 30px;
   width: 100%;
-  gap: 82px;
+  gap: 52px;
   background: var(--second_section_color);
   /* <!-- -------- section-new-launches-left --------- --> */
   /* <!-- -------- section-new-launches-right --------- --> */
@@ -357,10 +357,34 @@ footer {
 .section-new-launches-right {
   width: 50%;
   display: flex;
-  padding-top: 73px;
+  align-items: center;
+  gap: 16px;
+}
+.section-new-launches-right-list {
+  display: flex;
   flex-direction: column;
 }
-.section-new-launches-right__attr_h3 {
-  padding-top: 13px;
-  font-size: 50px;
+.section-new-launches-right-list__attr_h3 {
+  margin-top: 30px;
+  font-size: 60px;
+}
+.section-new-launches-right-list-descr__attr_p {
+  margin-top: 29px;
+}
+.section-new-launches-right-list-price__attr_p {
+  margin-top: 26px;
+}
+.section-new-launches-right-list__circ {
+  display: flex;
+  gap: 31px;
+  margin-top: 50px;
+}
+.section-new-launches-right-list__control {
+  display: flex;
+  margin-top: 50px;
+  gap: 67px;
+  align-items: center;
+}
+.section-new-launches-right-list__control_attr {
+  padding: 22px 90px;
 }/*# sourceMappingURL=style.css.map */
