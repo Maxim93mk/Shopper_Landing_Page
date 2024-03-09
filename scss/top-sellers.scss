@@ -16,6 +16,7 @@ main {
     flex-wrap: wrap;
     &__h3 {
         color: var(--first_text_color);
+        text-align: center;
     }
     &__btns {
         display: flex;
@@ -150,10 +151,6 @@ main {
                 }
             }
         }
-    }
-    /* <!--Trending Earphones --> */
-    .section-trending-earphones {
-        padding: 50px;
     }
 }
 /* Планшетная версия от 769px до 1140px */

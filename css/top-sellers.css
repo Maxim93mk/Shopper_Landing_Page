@@ -16,6 +16,7 @@ main {
 }
 .section-top-sellers__h3 {
   color: var(--first_text_color);
+  text-align: center;
 }
 .section-top-sellers__btns {
   display: flex;
@@ -146,10 +147,6 @@ main {
   }
   .section-top-sellers .products-main-block__descr {
     padding: 19px 30px 31px 30px;
-  }
-  /* <!--Trending Earphones --> */
-  .section-trending-earphones {
-    padding: 50px;
   }
 }
 /* Планшетная версия от 769px до 1140px */

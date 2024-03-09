@@ -22,6 +22,8 @@ $background-color_1: var(--first_main_color) !global;
 @import "./featured-products.css";
 /* Top Sellers */
 @import "./top-sellers.css";
+/* Trending Earphones */
+@import "./trending-earphones.css";
 
 * {
 	margin: 0;
@@ -46,27 +48,6 @@ footer {
 /* <!-- -------- section-featured-products --------- --> */
 .section-featured-products {
 	margin-top: 85px;
-}
-/* <!-- Top Sellers --> */
-
-/* <!--Trending Earphones --> */
-.section-trending-earphones {
-	padding-top: 139px;
-	.section-trending-earphones_product-1__color {
-		background-color: var(--trending_earphones_first_product_bg_color);
-	}
-	.section-trending-earphones_product-2__color {
-		background-color: var(--trending_earphones_second_product_bg_color);
-	}
-	.section-trending-earphones_product-3__color {
-		background-color: var(--trending_earphones_third_product_bg_color);
-	}
-	.section-trending-earphones_product-1__discount_color {
-		background-color: var(--trending_earphones_discount_first_product_color);
-	}
-	.section-trending-earphones_product-3__discount_color {
-		background-color: var(--trending_earphones_discount_third_product_color);
-	}
 }
 /* New Launches */
 .title-new-launches__attr_h3 {
