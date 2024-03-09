@@ -1,5 +1,10 @@
 @charset "UTF-8";
 /* <!-- --------------MAIN------------------- --> */
+main {
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+}
+
 /* <!-- -------- section-latest-products --------- --> */
 .section-latest-products {
   background: var(--second_main_color);

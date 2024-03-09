@@ -1,5 +1,11 @@
 /* <!-- --------------MAIN------------------- --> */
 $color_1: var(--first_text_color) !global;
+$font-family_1: "Montserrat", sans-serif;
+
+main {
+    font-style: normal;
+    font-family: $font-family_1;
+}
 /* <!-- -------- section-featured-products --------- --> */
 .section-featured-products {
     width: 100%;
@@ -54,7 +60,7 @@ $color_1: var(--first_text_color) !global;
         &-left {
             width: 100%;
             flex-direction: column;
-            .title_primary__h2{
+            .title_primary__h2 {
                 text-align: center;
             }
         }

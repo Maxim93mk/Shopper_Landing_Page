@@ -1,5 +1,11 @@
 /* <!-- --------------MAIN------------------- --> */
 $color_1: var(--first_text_color) !global;
+$font-family_1: "Montserrat", sans-serif;
+
+main {
+    font-style: normal;
+    font-family: $font-family_1;
+}
 /* <!-- -------- section-latest-products --------- --> */
 .section-latest-products {
     background: var(--second_main_color);
