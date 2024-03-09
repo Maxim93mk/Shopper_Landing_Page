@@ -17,25 +17,43 @@
         rel="stylesheet">
     <!--Стили-->
     <link rel="stylesheet" href="./css/style.css">
-    <!-- Адаптирование под разные разрешения  -->
-    <link rel="stylesheet" href="./css/media.css">
     <title>Shopper landing page</title>
 </head>
 
 <body>
+    <!-- mobile-menu -->
+    <section class="mobile-menu">
+        <button class="mobile-menu__close">
+            x
+        </button>
+        <div class="mobile-menu__form-search">
+            <input type="text" placeholder="Search Items" class="form-search__input"></input>
+            <button class="form-search__btn"></button>
+        </div>
+        <!-- mobile-menu__navigation -->
+        <nav class="mobile-menu__navigation">
+            <a class="link_primary link1" href="#featured">Features</a>
+            <a class="link_primary link2" href="#products">Products</a>
+            <a class="link_primary link3" href="#blog">Blog</a>
+            <a class="link_primary link4" href="#about">About</a>
+        </nav>
+    </section>
     <!-- --------------HEADER------------------- -->
-
     <header>
         <!-- header-logo  -->
         <div class="container">
             <div class="header-logo">
                 <div class="header-logo-form">
                     <a href="#" class="header-logo__link_green">Shop<span class="header-logo__link_black">per</span></a>
+                    <button class="header-logo-form__menu_button">
+                        <hr class="black">
+                    </button>
                     <div class="form-search">
                         <input type="text" placeholder="Search Items" class="form-search__input"></input>
                         <button class="form-search__btn"></button>
                     </div>
                 </div>
+
                 <div class="header__btns">
                     <button class="btns_rounded btns_rounded_cart">0 Items Added</button>
                     <button class="btns_rounded btns_rounded_login">Login or Sign Up</button>
@@ -43,10 +61,10 @@
             </div>
             <!-- header-navigation -->
             <nav class="header-navigation">
-                <a class="link_primary" href="#">Features</a>
-                <a class="link_primary" href="#">Products</a>
-                <a class="link_primary" href="#">Blog</a>
-                <a class="link_primary" href="#">About</a>
+                <a class="link_primary" href="#featured">Features</a>
+                <a class="link_primary" href="#products">Products</a>
+                <a class="link_primary" href="#blog">Blog</a>
+                <a class="link_primary" href="#about">About</a>
             </nav>
         </div>
     </header>
@@ -118,7 +136,7 @@
 
         <!-- -------- section-featured-products --------- -->
         <section>
-            <div class="container section-featured-products">
+            <div class="container section-featured-products" id="featured">
                 <!-- -------- section-featured-products-left --------- -->
                 <div class="section-featured-products-left">
                     <h2 class="title_primary__h2">Apple wireless Airpod</h2>
@@ -145,7 +163,7 @@
         </section>
         <!-- Top Sellers -->
         <section>
-            <div class="container section-top-sellers">
+            <div class="container section-top-sellers" id="products">
                 <h3 class="title_primary__h3  section-top-sellers__h3">Top Sellers</h3>
                 <div class="section-top-sellers__btns">
                     <button class="circ_btn">Top Picks</button>
@@ -327,12 +345,12 @@
         </div>
         <!-- New Launches -->
         <section>
-            <div class="container">
+            <div class="container" id="blog">
                 <h3 class="title_primary__h3 title-new-launches__attr_h3">New Launches</h3>
                 <div class="section-new-launches">
                     <!-- -------- section-new-launches-left --------- -->
                     <div class="section-new-launches-left">
-                        <button class="arrow_btn_circ"><img src="/img/btn_ left_arrow.svg" alt="Стрелка"></button>
+                        <button class="arrow_btn_circ"><img src="./img/btn_ left_arrow.svg" alt="Стрелка"></button>
                         <div class="section-new-launches-left__earhpones">
                             <img class="section-new-launches-left__earhpones_img" src="./img/earphone_10.svg"
                                 alt="Наушники">
@@ -362,7 +380,7 @@
                                 <a href="#" class="link_primary">Explore More</a>
                             </div>
                         </div>
-                        <button class="arrow_btn_circ"><img src="/img/btn_ right_arrow.svg" alt="Стрелка"></button>
+                        <button class="arrow_btn_circ"><img src="./img/btn_ right_arrow.svg" alt="Стрелка"></button>
                     </div>
                 </div>
             </div>
@@ -370,7 +388,7 @@
     </main>
     <!-- --------------FOOTER------------------- -->
     <footer>
-        <div class="container footer-block">
+        <div class="container footer-block" id="about">
             <section class="start">
                 <p class="start_p">Ready to get started?</p>
                 <button class="btns_rect_other">Get started</button>
@@ -422,6 +440,8 @@
             </section>
         </div>
     </footer>
+
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
