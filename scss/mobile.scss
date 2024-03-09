@@ -2,6 +2,7 @@ $font-family_1: "Montserrat", sans-serif;
 $color_1: var(--input_text_color);
 $color_2: var(--input_placeholder_color);
 $background-color_1: var(--first_main_color) !global;
+
 /* <!-- mobile-menu --> */
 .mobile-menu {
     height: 100vh;
@@ -19,6 +20,7 @@ $background-color_1: var(--first_main_color) !global;
     padding-top: 160px;
     z-index: 10;
     background-color: var(--second_main_color);
+    transition: all 1s ease-out;
     &__close {
         position: absolute;
         right: 70px;
@@ -44,7 +46,11 @@ $background-color_1: var(--first_main_color) !global;
         display: flex;
         gap: 15px;
         flex-direction: column;
-        padding: 0 100%;
+        align-items: center;
+        padding: 0 28px;
+        max-width: 1140px;
+        min-width: 360px;
+        width: 100%;
         background-color: $background-color_1;
         .link_primary {
             font-size: 40px;
@@ -52,4 +58,12 @@ $background-color_1: var(--first_main_color) !global;
             font-family: $font-family_1;
         }
     }
+}
+
+.hidden {
+    transform: translateX(-100%);
+}
+
+.visible {
+    transform: translateX(0);
 }

@@ -15,6 +15,7 @@
   padding-top: 160px;
   z-index: 10;
   background-color: var(--second_main_color);
+  transition: all 1s ease-out;
 }
 .mobile-menu__close {
   position: absolute;
@@ -41,11 +42,23 @@
   display: flex;
   gap: 15px;
   flex-direction: column;
-  padding: 0 100%;
+  align-items: center;
+  padding: 0 28px;
+  max-width: 1140px;
+  min-width: 360px;
+  width: 100%;
   background-color: var(--first_main_color);
 }
 .mobile-menu__navigation .link_primary {
   font-size: 40px;
   font-style: normal;
   font-family: "Montserrat", sans-serif;
+}
+
+.hidden {
+  transform: translateX(-100%);
+}
+
+.visible {
+  transform: translateX(0);
 }/*# sourceMappingURL=mobile.css.map */

@@ -24,6 +24,7 @@ header {
             background: none;
             border-top: 1px solid black;
             border-bottom: 1px solid black;
+            display: none;
             .black {
                 color: black;
             }
@@ -67,8 +68,12 @@ header {
         padding: 30px;
         align-items: normal;
         &-form {
-            gap: 50px;
+            justify-content: space-around;
             flex-wrap: wrap;
+            gap: 50px;
+            &__menu_button{
+                display: block;
+            }
             .header-logo__link_green {
                 font-size: 50px;
             }
@@ -100,8 +105,12 @@ header {
         padding: 30px;
         align-items: normal;
         &-form {
+            justify-content: space-around;
             gap: 50px;
             flex-wrap: wrap;
+            &__menu_button{
+                display: block;
+            }
             .header-logo__link_green {
                 font-size: 50px;
             }

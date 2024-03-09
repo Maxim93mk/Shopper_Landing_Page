@@ -26,6 +26,7 @@ header {
   background: none;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+  display: none;
 }
 .header-logo-form__menu_button .black {
   color: black;
@@ -69,8 +70,12 @@ header {
     align-items: normal;
   }
   .header-logo-form {
-    gap: 50px;
+    justify-content: space-around;
     flex-wrap: wrap;
+    gap: 50px;
+  }
+  .header-logo-form__menu_button {
+    display: block;
   }
   .header-logo-form .header-logo__link_green {
     font-size: 50px;
@@ -102,8 +107,12 @@ header {
     align-items: normal;
   }
   .header-logo-form {
+    justify-content: space-around;
     gap: 50px;
     flex-wrap: wrap;
+  }
+  .header-logo-form__menu_button {
+    display: block;
   }
   .header-logo-form .header-logo__link_green {
     font-size: 50px;
