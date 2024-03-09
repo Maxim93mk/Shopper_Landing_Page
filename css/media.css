@@ -4,55 +4,7 @@
 /* <!-- --------------HEADER------------------- --> */
 /* <!-- header-logo  --> */
 @media (min-width: 360px) and (max-width: 768px) {
-  .container {
-    min-width: 368px;
-    max-width: 768px;
-    width: 100%;
-  }
   /* <!-- --------------MAIN------------------- --> */
-  /* <!-- -------- section-latest-products --------- -->  */
-  .section-latest-products {
-    flex-direction: column;
-    padding: 30px;
-    /* <!-- section-latest-products-left --> */
-    /* <!-- section-latest-products-right --> */
-  }
-  .section-latest-products-left {
-    padding-top: 30px;
-    width: 100%;
-  }
-  .section-latest-products-left .title_primary__h1 {
-    font-size: 62px;
-  }
-  .section-latest-products-left .btn_buy_indent {
-    margin-top: 30px;
-  }
-  .section-latest-products-left .products-rewiev {
-    margin-top: 50px;
-  }
-  .section-latest-products-left .products-rewiev__p_attr {
-    left: 190px;
-  }
-  .section-latest-products-right {
-    width: 100%;
-    flex-direction: column;
-  }
-  .section-latest-products-right .playVideo {
-    padding-top: 70px;
-  }
-  .section-latest-products-right .main-beats {
-    flex-direction: column;
-  }
-  .section-latest-products-right .main-beats .star_up {
-    padding-top: 30px;
-  }
-  .section-latest-products-right .main-beats .read-beats {
-    margin: 0;
-  }
-  .section-latest-products-right .main-beats .star_down {
-    padding: 0;
-    padding-left: 250px;
-  }
   /* <!-- -------- section-featured-products --------- --> */
   .section-featured-products {
     flex-direction: column;
@@ -187,21 +139,6 @@
     width: 100%;
   }
   /* <!-- --------------MAIN------------------- --> */
-  /* <!-- -------- section-latest-products --------- -->  */
-  .section-latest-products {
-    flex-direction: column;
-    align-items: center;
-    padding: 30px;
-    /* <!-- section-latest-products-left --> */
-    /* <!-- section-latest-products-right --> */
-  }
-  .section-latest-products-left {
-    padding-top: 30px;
-    width: 100%;
-  }
-  .section-latest-products-right {
-    width: 100%;
-  }
   /* <!-- -------- section-featured-products --------- --> */
   .section-featured-products {
     flex-direction: column;

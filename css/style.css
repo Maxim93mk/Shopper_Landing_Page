@@ -11,28 +11,8 @@
 @import "./position.css";
 /* HEADER */
 @import "./header.css";
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background: none;
-}
-
-main {
-  font-style: normal;
-  font-family: "Montserrat", sans-serif;
-}
-
-footer {
-  font-family: "DM Sans", sans-serif;
-}
-
-.container {
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto;
-}
-
+/* MAIN */
+/* section-latest-products */
 /* <!-- --------------MAIN------------------- --> */
 /* <!-- -------- section-latest-products --------- --> */
 .section-latest-products {
@@ -100,6 +80,93 @@ footer {
 }
 .section-latest-products-right .main-beats .star_down {
   padding-top: 550px;
+}
+
+/* Адаптирование под разные разрешения */
+/* Мобильная версия от 360px до 768px */
+@media (min-width: 360px) and (max-width: 768px) {
+  /* <!-- -------- section-latest-products --------- -->  */
+  .section-latest-products {
+    flex-direction: column;
+    padding: 30px;
+    /* <!-- section-latest-products-left --> */
+    /* <!-- section-latest-products-right --> */
+  }
+  .section-latest-products-left {
+    padding-top: 30px;
+    width: 100%;
+  }
+  .section-latest-products-left .title_primary__h1 {
+    font-size: 62px;
+  }
+  .section-latest-products-left .btn_buy_indent {
+    margin-top: 30px;
+  }
+  .section-latest-products-left .products-rewiev {
+    margin-top: 50px;
+  }
+  .section-latest-products-left .products-rewiev__p_attr {
+    left: 190px;
+  }
+  .section-latest-products-right {
+    width: 100%;
+    flex-direction: column;
+  }
+  .section-latest-products-right .playVideo {
+    padding-top: 70px;
+  }
+  .section-latest-products-right .main-beats {
+    flex-direction: column;
+  }
+  .section-latest-products-right .main-beats .star_up {
+    padding-top: 30px;
+  }
+  .section-latest-products-right .main-beats .read-beats {
+    margin: 0;
+  }
+  .section-latest-products-right .main-beats .star_down {
+    padding: 0;
+    padding-left: 250px;
+  }
+}
+/* Планшетная версия от 769px до 1140px */
+@media (min-width: 769px) and (max-width: 1140px) {
+  /* <!-- -------- section-latest-products --------- -->  */
+  .section-latest-products {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    /* <!-- section-latest-products-left --> */
+    /* <!-- section-latest-products-right --> */
+  }
+  .section-latest-products-left {
+    padding-top: 30px;
+    width: 100%;
+  }
+  .section-latest-products-right {
+    width: 100%;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: none;
+}
+
+main {
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+}
+
+footer {
+  font-family: "DM Sans", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 /* <!-- -------- section-featured-products --------- --> */
@@ -439,4 +506,22 @@ footer {
   list-style: none;
   display: flex;
   gap: 40px;
+}
+
+/* Адаптирование под разные разрешения */
+/* Мобильная версия от 360px до 768px */
+@media (min-width: 360px) and (max-width: 768px) {
+  .container {
+    min-width: 368px;
+    max-width: 768px;
+    width: 100%;
+  }
+}
+/* Планшетная версия от 769px до 1140px */
+@media (min-width: 769px) and (max-width: 1140px) {
+  .container {
+    min-width: 769px;
+    max-width: 1140px;
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */

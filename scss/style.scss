@@ -14,7 +14,10 @@ $background-color_1: var(--first_main_color) !global;
 /* Позиционирование */
 @import "./position.css";
 /* HEADER */
- @import "./header.css";
+@import "./header.css";
+/* MAIN */
+/* section-latest-products */
+@import "./latest-products.scss";
 
 * {
 	margin: 0;
@@ -36,74 +39,6 @@ footer {
 	margin: 0 auto;
 }
 
-/* <!-- --------------MAIN------------------- --> */
-/* <!-- -------- section-latest-products --------- --> */
-.section-latest-products {
-	background: var(--second_main_color);
-	padding: 0 85px;
-	display: flex;
-	justify-content: space-between;
-	/* <!-- section-latest-products-left --> */
-	&-left {
-		padding-top: 127px;
-		width: 50%;
-		max-width: 635px;
-		display: flex;
-		flex-direction: column;
-		.discription__p_attr {
-			color: $color_1;
-			margin-top: 30px;
-		}
-		.btn_buy_indent {
-			margin-top: 52px;
-		}
-		.products-rewiev {
-			display: flex;
-			align-items: center;
-			margin-top: 107px;
-		}
-	}
-	/* <!-- section-latest-products-right --> */
-	&-right {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		width: 50%;
-		.playVideo {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			padding-top: 504px;
-			&__svg {
-				background-image: url(../img/face_5.svg);
-				background-repeat: no-repeat;
-				background-position: 5px;
-			}
-			.discription_primary__p_color {
-				color: $color_1;
-			}
-		}
-		.main-beats {
-			display: flex;
-			.star_up {
-				padding-top: 75px;
-			}
-			.read-beats {
-				margin-top: 100px;
-				padding: 76px 4px 102px;
-				max-height: 477px;
-				height: 100%;
-				max-width: 272px;
-				width: 100%;
-				border-radius: 136px;
-				background: var(--background_earphone);
-			}
-			.star_down {
-				padding-top: 550px;
-			}
-		}
-	}
-}
 /* <!-- -------- section-featured-products --------- --> */
 .section-featured-products {
 	width: 100%;
@@ -434,5 +369,22 @@ footer {
 			display: flex;
 			gap: 40px;
 		}
+	}
+}
+/* Адаптирование под разные разрешения */
+/* Мобильная версия от 360px до 768px */
+@media (min-width: 360px) and (max-width: 768px) {
+	.container {
+		min-width: 368px;
+		max-width: 768px;
+		width: 100%;
+	}
+}
+/* Планшетная версия от 769px до 1140px */
+@media (min-width: 769px) and (max-width: 1140px) {
+	.container {
+		min-width: 769px;
+		max-width: 1140px;
+		width: 100%;
 	}
 }
