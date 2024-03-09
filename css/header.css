@@ -19,6 +19,17 @@ header {
   justify-content: center;
   gap: 239px;
 }
+.header-logo-form__menu_button {
+  width: 40px;
+  height: 30px;
+  border: none;
+  background: none;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.header-logo-form__menu_button .black {
+  color: black;
+}
 .header-logo-form .form-search {
   display: flex;
   align-items: center;
@@ -66,10 +77,12 @@ header {
   }
   .header-logo-form .form-search {
     max-width: 650px;
+    display: none;
   }
   .header-logo .header__btns {
     flex-wrap: wrap;
     flex-direction: row;
+    display: none;
   }
   .header-logo .header__btns .btns_rounded {
     max-width: 650px;
@@ -78,6 +91,7 @@ header {
     flex-direction: column;
     gap: 50px;
     flex-wrap: wrap;
+    display: none;
   }
 }
 /* Планшетная версия от 769px до 1140px */
@@ -96,9 +110,11 @@ header {
   }
   .header-logo-form .form-search {
     max-width: 650px;
+    display: none;
   }
   .header-logo .header__btns {
     flex-direction: row;
+    display: none;
   }
   .header-logo .header__btns .btns_rounded {
     max-width: 450px;
@@ -106,5 +122,6 @@ header {
   .header-navigation {
     flex-direction: row;
     gap: 50px;
+    display: none;
   }
 }/*# sourceMappingURL=header.css.map */

@@ -27,7 +27,8 @@ $font-family_2: "DM Sans", sans-serif;
 @import "./new-launches.css";
 /* FOOTER */
 @import "./footer.css";
-
+/* mobile */
+@import "./mobile.css";
 * {
 	margin: 0;
 	padding: 0;
@@ -48,12 +49,14 @@ input {
 	font-style: normal;
 	font-family: $font-family_1;
 }
-.form-search__input {
-	color: $color_1;
-	font-size: 16px;
-	font-weight: 500;
-	&::placeholder {
-		color: $color_2;
+.form-search {
+	&__input {
+		color: $color_1;
+		font-size: 16px;
+		font-weight: 500;
+		&::placeholder {
+			color: $color_2;
+		}
 	}
 }
 /* Поле для e-mail */

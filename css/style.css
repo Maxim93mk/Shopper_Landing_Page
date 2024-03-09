@@ -24,6 +24,8 @@
 @import "./new-launches.css";
 /* FOOTER */
 @import "./footer.css";
+/* mobile */
+@import "./mobile.css";
 * {
   margin: 0;
   padding: 0;
