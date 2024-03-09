@@ -17,7 +17,9 @@ $background-color_1: var(--first_main_color) !global;
 @import "./header.css";
 /* MAIN */
 /* section-latest-products */
-@import "./latest-products.scss";
+@import "./latest-products.css";
+/* section-featured-products */
+@import "./featured-products.css";
 
 * {
 	margin: 0;
@@ -38,51 +40,10 @@ footer {
 	width: 100%;
 	margin: 0 auto;
 }
-
+/* <!-- --------------MAIN------------------- --> */
 /* <!-- -------- section-featured-products --------- --> */
 .section-featured-products {
-	width: 100%;
 	margin-top: 85px;
-	padding: 73px 43px 47px 85px;
-	background: var(--second_section_color);
-	gap: 55px;
-	display: flex;
-	justify-content: space-between;
-	/* <!-- -------- section-featured-products-left --------- -->       */
-	&-left {
-		display: flex;
-		width: 54%;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		background: var(--second_section_color);
-	}
-	&__img {
-		display: flex;
-		gap: 33px;
-		justify-content: flex-start;
-		padding-top: 40px;
-	}
-	.price__p_indent {
-		padding-top: 12px;
-	}
-	/* <!-- section-featured-products-right --> */
-	&-right {
-		width: 46%;
-		background: var(--second_section_color);
-		flex-direction: column;
-		padding-top: 146px;
-		justify-content: flex-start;
-	}
-	.discription__p_indent {
-		padding-top: 10px;
-	}
-	.section-featured-products__control {
-		padding-top: 35px;
-		display: flex;
-		align-items: center;
-		gap: 50px;
-	}
 }
 /* <!-- Top Sellers --> */
 .section-top-sellers {

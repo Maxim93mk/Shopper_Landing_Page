@@ -6,34 +6,6 @@
 @media (min-width: 360px) and (max-width: 768px) {
   /* <!-- --------------MAIN------------------- --> */
   /* <!-- -------- section-featured-products --------- --> */
-  .section-featured-products {
-    flex-direction: column;
-    padding: 30px;
-    /* <!-- -------- section-featured-products-left --------- --> */
-    /* <!-- section-featured-products-right --> */
-  }
-  .section-featured-products-left {
-    width: 100%;
-    flex-direction: column;
-  }
-  .section-featured-products__img {
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  .section-featured-products__img .featured-products__img_center {
-    position: static;
-  }
-  .section-featured-products-right {
-    width: 100%;
-    padding-top: 30px;
-  }
-  .section-featured-products-right .section-featured-products__control {
-    padding-top: 35px;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 20px;
-  }
   /* <!-- Top Sellers --> */
   .section-top-sellers {
     padding-top: 50px;
@@ -139,22 +111,6 @@
     width: 100%;
   }
   /* <!-- --------------MAIN------------------- --> */
-  /* <!-- -------- section-featured-products --------- --> */
-  .section-featured-products {
-    flex-direction: column;
-    padding: 30px;
-    align-items: center;
-    gap: 100px;
-  }
-  .section-featured-products-left {
-    width: 100%;
-  }
-  .section-featured-products-right {
-    width: 100%;
-    max-width: 635px;
-    display: flex;
-    padding-top: 0;
-  }
   /* <!-- Top Sellers --> */
   /* <!--Trending Earphones --> */
   .section-top-sellers {

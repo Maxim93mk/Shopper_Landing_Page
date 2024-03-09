@@ -11,34 +11,7 @@
 	/* <!-- --------------MAIN------------------- --> */
 	
 	/* <!-- -------- section-featured-products --------- --> */
-	.section-featured-products {
-		flex-direction: column;
-		padding: 30px;
-		/* <!-- -------- section-featured-products-left --------- --> */
-		&-left {
-			width: 100%;
-			flex-direction: column;
-		}
-		&__img {
-			flex-wrap: wrap;
-			justify-content: center;
-			align-items: center;
-			.featured-products__img_center {
-				position: static;
-			}
-		}
-		/* <!-- section-featured-products-right --> */
-		&-right {
-			width: 100%;
-			padding-top: 30px;
-			.section-featured-products__control {
-				padding-top: 35px;
-				flex-wrap: wrap;
-				justify-content: flex-start;
-				gap: 20px;
-			}
-		}
-	}
+	
 	/* <!-- Top Sellers --> */
 	.section-top-sellers {
 		padding-top: 50px;
@@ -150,22 +123,7 @@
 	}
 	/* <!-- --------------MAIN------------------- --> */
 	
-	/* <!-- -------- section-featured-products --------- --> */
-	.section-featured-products {
-		flex-direction: column;
-		padding: 30px;
-		align-items: center;
-		gap: 100px;
-		&-left {
-			width: 100%;
-		}
-		&-right {
-			width: 100%;
-			max-width: 635px;
-			display: flex;
-			padding-top: 0;
-		}
-	}
+
 	/* <!-- Top Sellers --> */
 	/* <!--Trending Earphones --> */
 	.section-top-sellers {
