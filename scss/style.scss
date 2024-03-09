@@ -1,11 +1,15 @@
+$color_1: var(--input_text_color);
+$color_2: var(--input_placeholder_color);
+$font-family_1: "Montserrat", sans-serif;
+$font-family_2: "DM Sans", sans-serif;
 /* Глобальные переменные стилей */
 @import "./variables.css";
 /* Стили параграфов, заголовков и т.п */
 @import "./text.css";
 /* Стили ссылок */
 @import "./links.css";
-/* Стили форм */
-@import "./forms.css";
+/* Стили кнопок */
+@import "./buttons.css";
 /* Позиционирование */
 @import "./position.css";
 /* HEADER */
@@ -31,19 +35,45 @@
 	background: none;
 }
 
-
-
 .container {
 	max-width: 1440px;
 	width: 100%;
 	margin: 0 auto;
 }
+
+/* Поле поиска */
+input {
+	outline: none;
+	border: none;
+	font-style: normal;
+	font-family: $font-family_1;
+}
+.form-search__input {
+	color: $color_1;
+	font-size: 16px;
+	font-weight: 500;
+	&::placeholder {
+		color: $color_2;
+	}
+}
+/* Поле для e-mail */
+.center-left__email-form__input {
+	font-family: $font-family_2;
+	color: $color_1;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: -0.2px;
+	&::placeholder {
+		color: #808080;
+	}
+}
+
 /* <!-- --------------MAIN------------------- --> */
 /* <!-- -------- section-featured-products --------- --> */
 .section-featured-products {
 	margin-top: 85px;
 }
-
 
 /* Адаптирование под разные разрешения */
 /* Мобильная версия от 360px до 768px */
