@@ -13,6 +13,8 @@ $background-color_1: var(--first_main_color) !global;
 @import "./forms.css";
 /* Позиционирование */
 @import "./position.css";
+/* HEADER */
+ @import "./header.css";
 
 * {
 	margin: 0;
@@ -20,10 +22,7 @@ $background-color_1: var(--first_main_color) !global;
 	box-sizing: border-box;
 	background: none;
 }
-header {
-	font-style: normal;
-	font-family: $font-family_1;
-}
+
 main {
 	font-style: normal;
 	font-family: $font-family_1;
@@ -35,48 +34,6 @@ footer {
 	max-width: 1440px;
 	width: 100%;
 	margin: 0 auto;
-}
-/* <!-- --------------HEADER------------------- --> */
-/* <!-- header-logo  --> */
-.header-logo {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 38px;
-	padding: 37px 85px 63px;
-	&-form {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		gap: 239px;
-		.form-search {
-			display: flex;
-			align-items: center;
-			justify-content: space-between;
-			max-width: 350px;
-			min-width: 150px;
-			width: 100%;
-			padding: 12px 18px 12px 32px;
-			border-radius: 10px;
-			background: #ffffff;
-			box-shadow: 0px 15px 50px 0px rgba(46, 131, 158, 0.07);
-		}
-	}
-	.header__btns {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		gap: 23px;
-	}
-}
-/* <!-- header-navigation --> */
-.header-navigation {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: $background-color_1;
-	gap: 75px;
-	padding: 28px 0px;
 }
 
 /* <!-- --------------MAIN------------------- --> */
