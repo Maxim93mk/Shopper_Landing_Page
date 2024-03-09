@@ -7,36 +7,6 @@
   /* <!-- --------------MAIN------------------- --> */
   /* <!-- -------- section-featured-products --------- --> */
   /* <!-- Top Sellers --> */
-  /* <!--New Launches--> */
-  .title-new-launches__attr_h3 {
-    margin: 30px auto 65px auto;
-  }
-  .section-new-launches {
-    align-items: center;
-    padding: 48px 80px 38px 48px;
-    flex-wrap: wrap;
-  }
-  .section-new-launches-left {
-    width: 100%;
-    flex-direction: column;
-  }
-  .section-new-launches-left__earhpones {
-    flex-direction: column;
-    gap: 0;
-    padding-top: 30px;
-  }
-  .section-new-launches-right {
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .section-new-launches-right-list__control {
-    gap: 37px;
-    flex-wrap: wrap;
-  }
-  .section-new-launches-right-list__control_attr {
-    padding: 22px 40px;
-  }
   /* <!-- --------------FOOTER------------------- --> */
   .footer-block {
     padding: 30px;
@@ -67,44 +37,6 @@
   /* <!-- --------------MAIN------------------- --> */
   /* <!-- Top Sellers --> */
   /* <!--Trending Earphones --> */
-  /* <!--New Launches--> */
-  .title-new-launches__attr_h3 {
-    margin: 30px auto 65px auto;
-  }
-  .section-new-launches {
-    align-items: center;
-    padding: 48px 80px 38px 48px;
-    flex-wrap: wrap;
-  }
-  .section-new-launches-left {
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-  .section-new-launches-left__earhpones {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 16px;
-    padding-top: 30px;
-  }
-  .section-new-launches-right {
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .section-new-launches-right-list {
-    max-width: 635px;
-    flex-wrap: wrap;
-  }
-  .section-new-launches-right-list__control {
-    gap: 37px;
-    flex-wrap: wrap;
-  }
-  .section-new-launches-right-list__control_attr {
-    padding: 22px 40px;
-  }
   /* <!-- --------------FOOTER------------------- --> */
   .footer-block {
     padding: 30px;

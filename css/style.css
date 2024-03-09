@@ -20,6 +20,8 @@
 @import "./top-sellers.css";
 /* Trending Earphones */
 @import "./trending-earphones.css";
+/* New Launches */
+@import "./new-launches.css";
 * {
   margin: 0;
   padding: 0;
@@ -46,80 +48,6 @@ footer {
 /* <!-- -------- section-featured-products --------- --> */
 .section-featured-products {
   margin-top: 85px;
-}
-
-/* New Launches */
-.title-new-launches__attr_h3 {
-  margin: 130px auto 65px auto;
-  max-width: 333px;
-  width: 100%;
-  text-align: center;
-  color: var(--first_text_color);
-}
-
-.section-new-launches {
-  display: flex;
-  flex-direction: row;
-  padding: 62px 63px 38px 30px;
-  width: 100%;
-  gap: 52px;
-  background: var(--second_section_color);
-  /* <!-- -------- section-new-launches-left --------- --> */
-  /* <!-- -------- section-new-launches-right --------- --> */
-}
-.section-new-launches-left {
-  display: flex;
-  flex-direction: row;
-  width: 50%;
-  align-items: center;
-  gap: 16px;
-  padding-left: 60px;
-}
-.section-new-launches-left__earhpones {
-  display: flex;
-  gap: 45px;
-  padding-top: 62px;
-  align-items: center;
-}
-.section-new-launches-left__earhpones_img {
-  border-radius: 120px;
-}
-.section-new-launches-left__earhpones_img_top {
-  margin-top: 50px;
-}
-.section-new-launches-right {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-.section-new-launches-right-list {
-  display: flex;
-  flex-direction: column;
-}
-.section-new-launches-right-list__attr_h3 {
-  margin-top: 30px;
-  font-size: 60px;
-}
-.section-new-launches-right-list-descr__attr_p {
-  margin-top: 29px;
-}
-.section-new-launches-right-list-price__attr_p {
-  margin-top: 26px;
-}
-.section-new-launches-right-list__circ {
-  display: flex;
-  gap: 31px;
-  margin-top: 50px;
-}
-.section-new-launches-right-list__control {
-  display: flex;
-  margin-top: 50px;
-  gap: 67px;
-  align-items: center;
-}
-.section-new-launches-right-list__control_attr {
-  padding: 22px 90px;
 }
 
 /* <!-- --------------FOOTER------------------- --> */

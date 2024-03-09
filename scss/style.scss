@@ -24,6 +24,8 @@ $background-color_1: var(--first_main_color) !global;
 @import "./top-sellers.css";
 /* Trending Earphones */
 @import "./trending-earphones.css";
+/* New Launches */
+@import "./new-launches.css";
 
 * {
 	margin: 0;
@@ -49,78 +51,7 @@ footer {
 .section-featured-products {
 	margin-top: 85px;
 }
-/* New Launches */
-.title-new-launches__attr_h3 {
-	margin: 130px auto 65px auto;
-	max-width: 333px;
-	width: 100%;
-	text-align: center;
-	color: var(--first_text_color);
-}
-.section-new-launches {
-	display: flex;
-	flex-direction: row;
-	padding: 62px 63px 38px 30px;
-	width: 100%;
-	gap: 52px;
-	background: var(--second_section_color);
-	/* <!-- -------- section-new-launches-left --------- --> */
-	&-left {
-		display: flex;
-		flex-direction: row;
-		width: 50%;
-		align-items: center;
-		gap: 16px;
-		padding-left: 60px;
-		&__earhpones {
-			display: flex;
-			gap: 45px;
-			padding-top: 62px;
-			align-items: center;
-			&_img {
-				border-radius: 120px;
-			}
-			&_img_top {
-				margin-top: 50px;
-			}
-		}
-	}
-	/* <!-- -------- section-new-launches-right --------- --> */
-	&-right {
-		width: 50%;
-		display: flex;
-		align-items: center;
-		gap: 16px;
-		&-list {
-			display: flex;
-			flex-direction: column;
-			&__attr_h3 {
-				margin-top: 30px;
-				font-size: 60px;
-			}
-			&-descr__attr_p {
-				margin-top: 29px;
-			}
-			&-price__attr_p {
-				margin-top: 26px;
-			}
-			&__circ {
-				display: flex;
-				gap: 31px;
-				margin-top: 50px;
-			}
-			&__control {
-				display: flex;
-				margin-top: 50px;
-				gap: 67px;
-				align-items: center;
-				&_attr {
-					padding: 22px 90px;
-				}
-			}
-		}
-	}
-}
+
 /* <!-- --------------FOOTER------------------- --> */
 .footer-block {
 	display: flex;
