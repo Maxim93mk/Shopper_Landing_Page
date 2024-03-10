@@ -83,7 +83,7 @@ button {
 		color: $color_4;
 	}
 }
-.btns_rect_other{
+.btns_rect_other {
 	max-width: 175px;
 	width: 100%;
 	background: var(--first_main_color);
@@ -97,7 +97,6 @@ button {
 		background: var(--second_main_color);
 		color: $color_4;
 	}
-
 }
 /* Овальные кнопки */
 .circ_btn {
@@ -112,6 +111,13 @@ button {
 		border-radius: 50%;
 		border: 1px solid var(--first_main_color);
 	}
+}
+
+.circ_btn.active {
+	background: var(--first_main_color);
+	color: $color_3;
+	border-radius: 50%;
+	border: 1px solid var(--first_main_color);
 }
 
 /* Стрелочные кнопки */
@@ -158,13 +164,13 @@ button {
 }
 
 /* Кнопка подтверждения e-mail */
-.center-left__email-form__button{
+.center-left__email-form__button {
 	border-radius: 8px 8px 0px 0px;
 	max-width: 50px;
 	max-height: 50px;
 	width: 100%;
 	height: 100%;
-	background-image:url(../img/email_arr.svg);
+	background-image: url(../img/email_arr.svg);
 	background-position: center;
 	padding: 25px;
 	background-color: var(--first_main_color);
