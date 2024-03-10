@@ -111,6 +111,13 @@ button {
   border: 1px solid var(--first_main_color);
 }
 
+.circ_btn.active {
+  background: var(--first_main_color);
+  color: var(--second_text_color);
+  border-radius: 50%;
+  border: 1px solid var(--first_main_color);
+}
+
 /* Стрелочные кнопки */
 .arrow_btn {
   max-width: 64px;
