@@ -1,3 +1,6 @@
+const getTabs = require('./js/tabs.js');
+
+
 const mobile_menu = document.querySelector('.mobile-menu');
 const mobile_links_nav = document.querySelector('.mobile-menu__navigation');
 
@@ -39,3 +42,5 @@ mobile_links_nav.querySelector('.link4')
         mobile_menu.classList.add('hidden');
         mobile_menu.classList.remove('visible');
     })
+
+      console.log("1");
