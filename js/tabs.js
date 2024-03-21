@@ -59,6 +59,7 @@ trending_earphones_btn.addEventListener('click', (event) => {
 
 
 function getProduct(productsInfoList, elem) {
+    elem.innerHTML = '';
     const arr = productsInfoList.forEach(productInfo => {
         const products_main =
             `<div class="products-main">
