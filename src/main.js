@@ -1,3 +1,5 @@
+import scss from './scss/style.scss'
+
 const getTabs = require('./js/tabs.js');
 
 

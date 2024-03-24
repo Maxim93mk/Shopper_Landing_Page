@@ -1,33 +1,33 @@
 @charset "UTF-8";
 /* Глобальные переменные стилей */
-@import "./variables.css";
+@import "../css/variables.css";
 /* Стили параграфов, заголовков и т.п */
-@import "./text.css";
+@import "../css/text.css";
 /* Стили ссылок */
-@import "./links.css";
+@import "../css/links.css";
 /* Стили кнопок */
-@import "./buttons.css";
+@import "../css/buttons.css";
 /* Позиционирование */
-@import "./position.css";
+@import "../css/position.css";
 /* HEADER */
-@import "./header.css";
+@import "../css/header.css";
 /* MAIN */
 /* section-latest-products */
-@import "./latest-products.css";
+@import "../css/latest-products.css";
 /* section-featured-products */
-@import "./featured-products.css";
+@import "../css/featured-products.css";
 /* Top Sellers */
-@import "./top-sellers.css";
+@import "../css/top-sellers.css";
 /* Trending Earphones */
-@import "./trending-earphones.css";
+@import "../css/trending-earphones.css";
 /* New Launches */
-@import "./new-launches.css";
+@import "../css/new-launches.css";
 /* FOOTER */
-@import "./footer.css";
+@import "../css/footer.css";
 /* mobile */
-@import "./mobile.css";
+@import "../css/mobile.css";
 /* welcome-popup */
-@import "./welcome-popup.css";
+@import "../css/welcome-popup.css";
 * {
   margin: 0;
   padding: 0;
