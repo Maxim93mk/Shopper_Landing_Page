@@ -2,9 +2,10 @@ import scss from './scss/style.scss';
 import { createmobileMenu } from './js/mobile-menu.js';
 import tabs from './js/tabs.js';
 import { productsInfoListPick, productsInfoListWatches } from './js/data/data-tabs.js';
-
+import createWelcomePopup from './js/welcome-popup.js'
 // const getTabs = require('./js/get-cards.js');
 
+createWelcomePopup();
 
 createmobileMenu();
 
