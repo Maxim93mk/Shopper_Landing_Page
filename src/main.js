@@ -1,46 +1,17 @@
-const getTabs = require('./js/tabs.js');
+import scss from './scss/style.scss';
+import { createmobileMenu } from './js/mobile-menu.js';
+import tabs from './js/tabs.js';
+import { productsInfoListPick, productsInfoListWatches } from './js/data/data-tabs.js';
+import createWelcomePopup from './js/welcome-popup.js'
+// const getTabs = require('./js/get-cards.js');
 
+createWelcomePopup();
 
-const mobile_menu = document.querySelector('.mobile-menu');
-const mobile_links_nav = document.querySelector('.mobile-menu__navigation');
+createmobileMenu();
 
-
-
-document.querySelector('.header-logo-form__menu_button')
-    .addEventListener('click', (event) => {
-        mobile_menu.classList.remove('hidden');
-        mobile_menu.classList.add('visible');
-    })
-
-
-mobile_menu.querySelector('.mobile-menu__close')
-    .addEventListener('click', (event) => {
-        mobile_menu.classList.add('hidden');
-        mobile_menu.classList.remove('visible');
-    })
-
-mobile_links_nav.querySelector('.link1')
-    .addEventListener('click', (event) => {
-        mobile_menu.classList.add('hidden');
-        mobile_menu.classList.remove('visible');
-    })
-
-mobile_links_nav.querySelector('.link2')
-    .addEventListener('click', (event) => {
-        mobile_menu.classList.add('hidden');
-        mobile_menu.classList.remove('visible');
-    })
-
-mobile_links_nav.querySelector('.link3')
-    .addEventListener('click', (event) => {
-        mobile_menu.classList.add('hidden');
-        mobile_menu.classList.remove('visible');
-    })
-
-mobile_links_nav.querySelector('.link4')
-    .addEventListener('click', (event) => {
-        mobile_menu.classList.add('hidden');
-        mobile_menu.classList.remove('visible');
-    })
-
-      console.log("1");
+const tabNamesS = ['Top Picks', 'Watches'];
+const tabNamesT = ['Earbuds', 'Wireless', 'Wired'];
+const products_containerS = document.querySelector('.section-top-sellers').querySelector('.products-container');
+const top_sellers_btn = document.querySelector('.section-top-sellers').querySelector('.section-top-sellers__btns');
+tabs(tabNamesS, [productsInfoListPick, productsInfoListWatches], '.section-top-sellers');
+tabs(tabNamesT, [productsInfoListPick, productsInfoListWatches, productsInfoListPick], '.section-trending-earphones');
