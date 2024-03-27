@@ -1,83 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
+import elemHTML from "../elemHTML.js";
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-    <!--Шрифты-->
-    <!----Montserrat---->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400&display=swap"
-        rel="stylesheet">
-    <!----DM Sans---->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap"
-        rel="stylesheet">
-    <!--Стили-->
-    <!-- <link rel="stylesheet" href="../src/css/style.css"> -->
-    <title>Shopper landing page</title>
-</head>
+class Products extends elemHTML {
 
-<body>
-    <!-- mobile-menu -->
-    <!-- <section class="mobile-menu">
-        <button class="mobile-menu__close">
-            x
-        </button>
-        <div class="mobile-menu__form-search">
-            <input type="text" placeholder="Search Items" class="form-search__input"></input>
-            <button class="form-search__btn"></button>
-        </div> -->
-        <!-- mobile-menu__navigation -->
-        <!-- <nav class="mobile-menu__navigation">
-            <a class="link_primary link1" href="#featured">Features</a>
-            <a class="link_primary link2" href="#products">Products</a>
-            <a class="link_primary link3" href="#blog">Blog</a>
-            <a class="link_primary link4" href="#about">About</a>
-        </nav>
-    </section> -->
-    <!-- --------------HEADER------------------- -->
-     <!-- <header> -->
-        <!-- header-logo  -->
-        <!-- <div class="container">
-            <div class="header-logo">
-                <div class="header-logo-form">
-                    <a href="#" class="header-logo__link_green">Shop<span class="header-logo__link_black">per</span></a>
-                    <button class="header-logo-form__menu_button">
-                        <hr class="black">
-                    </button>
-                    <div class="form-search">
-                        <input type="text" placeholder="Search Items" class="form-search__input"></input>
-                        <button class="form-search__btn"></button>
-                    </div>
-                </div>
+    elem = document.createElement('main');
 
-                <div class="header__btns">
-                    <button class="btns_rounded btns_rounded_cart">0 Items Added</button>
-                    <button class="btns_rounded btns_rounded_login">Login or Sign Up</button>
-                </div>
-            </div> -->
-            <!-- header-navigation -->
-            <!-- <nav class="header-navigation">
-                <a class="link_primary" href="#featured">Features</a>
-                <a class="link_primary" href="#products">Products</a>
-                <a class="link_primary" href="#blog">Blog</a>
-                <a class="link_primary" href="#about">About</a>
-            </nav> -->
-        <!-- </div>
-    </header>  -->
+    constructor() {
+        super();
+    }
+    setTemplate() {
 
-    <!-- --------------MAIN------------------- -->
-
-    <!-- <main> -->
-
-        <!-- -------- section-latest-products --------- -->
-        <!-- <section>
-            <div class="container section-latest-products"> -->
+        this.elem.insertAdjacentHTML("afterbegin", `<!-- -------- section-latest-products --------- -->
+        <section>
+            <div class="container section-latest-products">
                 <!-- section-latest-products-left -->
-                <!-- <div class="section-latest-products-left">
+                <div class="section-latest-products-left">
                     <h1 class="title_primary__h1">Discover Our Latest Products</h1>
                     <p class="discription_primary__p discription__p_attr">Lorem ipsum is a placeholder text commonly
                         used to demonstrate the visual form
@@ -93,9 +29,9 @@
                         </div>
                         <p class="products-rewiev__p products-rewiev__p_attr">15k Well Reviews</p>
                     </div>
-                </div> -->
+                </div>
                 <!-- section-latest-products-right -->
-                <!-- <div class="section-latest-products-right">
+                <div class="section-latest-products-right">
                     <div class="playVideo">
                         <div class="playVideo__svg">
                             <svg xmlns="http://www.w3.org/2000/svg" width="81" height="79" viewBox="0 0 81 79"
@@ -132,13 +68,13 @@
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
 
         <!-- -------- section-featured-products --------- -->
-        <!-- <section>
-            <div class="container section-featured-products" id="featured"> -->
+        <section>
+            <div class="container section-featured-products" id="featured">
                 <!-- -------- section-featured-products-left --------- -->
-                <!-- <div class="section-featured-products-left">
+                <div class="section-featured-products-left">
                     <h2 class="title_primary__h2">Apple wireless Airpod</h2>
                     <div class="section-featured-products__img">
                         <img src="../src/img/earphone_1.svg" alt="Наушники 1">
@@ -146,10 +82,10 @@
                         <img src="../src/img/earphone_3.svg" alt="Наушники 3">
                     </div>
                     <p class="price__p price__p_indent">Price:<span class="price__span">&nbsp $45.99</span></p>
-                </div> -->
+                </div>
 
                 <!-- section-featured-products-right -->
-                <!-- <div class="section-featured-products-right">
+                <div class="section-featured-products-right">
                     <h3 class="title_primary__h3 title_primary__h3_indent">Our Featured Products</h3>
                     <p class="discription_primary__p discription__p_indent">Lorem ipsum is a placeholder text commonly
                         used to demonstrate the visual form of a product</p>
@@ -160,9 +96,9 @@
                 </div>
 
             </div>
-        </section> -->
+        </section>
         <!-- Top Sellers -->
-        <!-- <section>
+        <section>
             <div class="container section-top-sellers" id="products">
                 <h3 class="title_primary__h3  section-top-sellers__h3">Top Sellers</h3>
                 <div class="section-top-sellers__btns">
@@ -253,9 +189,9 @@
                             alt="Кнопка стрелки вправо"></button>
                 </div>
             </div>
-        </section> -->
+        </section>
         <!--Trending Earphones -->
-        <!-- <div class="container section-top-sellers section-trending-earphones">
+        <div class="container section-top-sellers section-trending-earphones">
             <h3 class="title_primary__h3  section-top-sellers__h3">Trending Earphones</h3>
             <div class="section-top-sellers__btns">
                 <button class="circ_btn active">Earbuds</button>
@@ -343,14 +279,14 @@
                 </div>
                 <button class="arrow_btn"><img src="../src/img/Arrows_right.svg" alt="Кнопка стрелки вправо"></button>
             </div>
-        </div> -->
+        </div>
         <!-- New Launches -->
-        <!-- <section>
+        <section>
             <div class="container" id="blog">
                 <h3 class="title_primary__h3 title-new-launches__attr_h3">New Launches</h3>
-                <div class="section-new-launches"> -->
+                <div class="section-new-launches">
                     <!-- -------- section-new-launches-left --------- -->
-                    <!-- <div class="section-new-launches-left">
+                    <div class="section-new-launches-left">
                         <button class="arrow_btn_circ"><img src="../src/img/btn_ left_arrow.svg" alt="Стрелка"></button>
                         <div class="section-new-launches-left__earhpones">
                             <img class="section-new-launches-left__earhpones_img" src="../src/img/earphone_10.svg"
@@ -358,9 +294,9 @@
                             <img class="section-new-launches-left__earhpones_img section-new-launches-left__earhpones_img_top"
                                 src="../src/img/earphone_11.svg" alt="Наушники">
                         </div>
-                    </div> -->
+                    </div>
                     <!-- -------- section-new-launches-right --------- -->
-                    <!-- <div class="section-new-launches-right">
+                    <div class="section-new-launches-right">
                         <div class="section-new-launches-right-list">
                             <h3 class="title_primary__h3 section-new-launches-right-list__attr_h3">Airdrop 500 Anc</h3>
                             <p class="discription_primary__p section-new-launches-right-list-descr__attr_p">Lorem ipsum
@@ -386,66 +322,12 @@
                     </div>
                 </div>
             </div>
-        </section>
-    </main> -->
-    <!-- --------------FOOTER------------------- -->
-    <!-- <footer>
-        <div class="container footer-block" id="about">
-            <section class="start">
-                <p class="start_p">Ready to get started?</p>
-                <button class="btns_rect_other">Get started</button>
-            </section>
-            <section class="center">
-                <div class="center-left">
-                    <p class="center-left__email-descr">Subscribe to our Website</p>
-                    <div class="center-left__email-form">
-                        <input type="text" placeholder="Email address" class="center-left__email-form__input"></input>
-                        <button class="center-left__email-form__button"></button>
-                    </div>
-                </div>
-                <div class="center-right">
-                    <ul class="center-right_ul">
-                        <li class="center-right_ul-title">Services</li>
-                        <li><a href="#" class="center-right_ul_a">Email Marketing</a></li>
-                        <li><a href="#" class="center-right_ul_a">Campaigns</a></li>
-                        <li><a href="#" class="center-right_ul_a">Branding</a></li>
-                        <li><a href="#" class="center-right_ul_a">Offline</a></li>
-                    </ul>
-                    <ul class="center-right_ul">
-                        <li class="center-right_ul-title">About</li>
-                        <li><a href="#" class="center-right_ul_a">Our Story</a></li>
-                        <li><a href="#" class="center-right_ul_a">Benefits</a></li>
-                        <li><a href="#" class="center-right_ul_a">Team</a></li>
-                        <li><a href="#" class="center-right_ul_a">Careers</a></li>
-                    </ul>
-                    <ul class="center-right_ul">
-                        <li class="center-right_ul-title">Help</li>
-                        <li><a href="#" class="center-right_ul_a">FAQs</a></li>
-                        <li><a href="#" class="center-right_ul_a">Contact Us</a></li>
-                    </ul>
-                </div>
-            </section>
-            <section class="end">
-                <div class="end-left">
-                    <ul class="end-left_ul">
-                        <li><a href="#" class="end-left_ul_a">Terms & Conditions</a></li>
-                        <li><a href="#" class="end-left_ul_a">Privacy Policy</a></li>
-                    </ul>
-                </div>
-                <div class="end-right">
-                    <ul class="end-right_ul">
-                        <li><a href="#"><img src="../src/img/facebook_icon.svg" alt="Иконка facebook"></a></li>
-                        <li><a href="#"><img src="../src/img/twitter_icon.svg" alt="Иконка twitter"></a></li>
-                        <li><a href="#"><img src="../src/img/instagram_icon.svg" alt="Иконка instagram"></a></li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-    </footer> -->
-    <!-- <script src="../src/js/popup.js"></script>
-    <script src="../src/js/main.js"></script>
-    <script src="../src/js/tabs.js"></script> -->
+        </section>`);
+    }
+    createHeader() {
+        this.render();
+    }
+}
 
-</body>
 
-</html>
+export default Products;

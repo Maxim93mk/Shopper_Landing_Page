@@ -9,7 +9,7 @@ export default class elemHTML {
         thic.elem.classList.remove(className);
     }
 
-    render(container) {
+    render(container = 'body') {
         if (!container) {
             return;
         }

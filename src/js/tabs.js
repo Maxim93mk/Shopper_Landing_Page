@@ -1,10 +1,10 @@
 import getProduct from './get-cards.js';
 
-const products_containerS = document.querySelector('.section-top-sellers').querySelector('.products-container');
-const products_containerT = document.querySelector('.section-trending-earphones').querySelector('.products-container');
+// const products_containerS = document.querySelector('.section-top-sellers').querySelector('.products-container');
+// const products_containerT = document.querySelector('.section-trending-earphones').querySelector('.products-container');
 
-const top_sellers_btn = document.querySelector('.section-top-sellers').querySelector('.section-top-sellers__btns');
-const trending_earphones_btn = document.querySelector('.section-trending-earphones').querySelector('.section-top-sellers__btns');
+// const top_sellers_btn = document.querySelector('.section-top-sellers').querySelector('.section-top-sellers__btns');
+// const trending_earphones_btn = document.querySelector('.section-trending-earphones').querySelector('.section-top-sellers__btns');
 
 
 
