@@ -26,6 +26,22 @@ module.exports = (env) => {
                   "sass-loader",
                 ],
               },
+              {
+                test: /\.(png|jpg|jpeg|gif|svg)$/i,
+                use: [
+                  {
+                    loader: 'file-loader',
+                    options: {
+                      name: '[name].[ext]',
+                      outputPath: '',
+                  },
+                  },
+                ],
+              },
+              {
+                test:/\.html$/,
+                use:['html-loader'],
+              }
             ],
           },
           devServer: {

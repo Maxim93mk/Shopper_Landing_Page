@@ -1,3 +1,6 @@
+import raiting from "../img/raiting.svg";
+import earphone_8 from "../img/earphone_8.svg";
+
 export default function getProduct(productsInfoList, elem) {
     elem.innerHTML = '';
     const arr = productsInfoList.forEach(productInfo => {
@@ -6,17 +9,17 @@ export default function getProduct(productsInfoList, elem) {
             <div class="products-main-block section-trending-earphones_product-1__color">
                 <div class="products-main-block-foto">
                     <div class="products-main-block-foto-discount">Save 60 %</div>
-                        <img src="./img/earphone_7.svg" alt="Логотип наушников">
+                        <img src="${earphone_8}" alt="Логотип наушников">
                     </div>
                     <div class="products-main-block__descr">
                         <p class="discription_primary__p products-main-block__descr__p_color">${productInfo.productName}</p>
                         <div class="products-main-block__descr__raiting">
                             <div class="products-main-block__descr__raiting_star">
-                                <img src="./img/raiting.svg" alt="Рейтинг">
-                                <img src="./img/raiting.svg" alt="Рейтинг">
-                                <img src="./img/raiting.svg" alt="Рейтинг">
-                                <img src="./img/raiting.svg" alt="Рейтинг">
-                                <img src="./img/raiting.svg" alt="Рейтинг">
+                                <img src="${raiting}" alt="Рейтинг">
+                                <img src="${raiting}" alt="Рейтинг">
+                                <img src="${raiting}" alt="Рейтинг">
+                                <img src="${raiting}" alt="Рейтинг">
+                                <img src="${raiting}" alt="Рейтинг">
                             </div>
                             <p class="raiting-descr">${productInfo.productReviews} Reviews</p>
                         </div>

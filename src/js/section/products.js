@@ -1,4 +1,25 @@
 import elemHTML from "../elemHTML.js";
+import face_1 from "../../img/face_1.svg";
+import face_2 from "../../img/face_2.svg";
+import face_3 from "../../img/face_3.svg";
+import face_4 from "../../img/face_4.svg";
+import star from "../../img/star.svg";
+import earphone_main from "../../img/earphone_main.svg";
+import earphone_1 from "../../img/earphone_1.svg";
+import earphone_2 from "../../img/earphone_2.svg";
+import earphone_3 from "../../img/earphone_3.svg";
+import earphone_4 from "../../img/earphone_4.svg";
+import earphone_5 from "../../img/earphone_5.svg";
+import earphone_6 from "../../img/earphone_6.svg";
+import earphone_7 from "../../img/earphone_7.svg";
+import earphone_8 from "../../img/earphone_8.svg";
+import earphone_9 from "../../img/earphone_9.svg";
+import earphone_10 from "../../img/earphone_10.svg";
+import earphone_11 from "../../img/earphone_11.svg";
+import raiting from "../../img/raiting.svg";
+import btn_left_arrow from "../../img/btn_ left_arrow.svg"
+import btn_right_arrow from "../../img/btn_ right_arrow.svg"
+import arrow_right from "../../img/Arrows_right.svg"
 
 class Products extends elemHTML {
 
@@ -22,10 +43,10 @@ class Products extends elemHTML {
                     <button class="btns_rect btn_buy_indent">Buy Now</button>
                     <div class="products-rewiev">
                         <div class="products-rewiev__img">
-                            <img src="../src/img/face_1.svg" class="user_1" alt="Пользователь 1">
-                            <img src="../src/img/face_2.svg" class="user_2" alt="Пользователь 2">
-                            <img src="../src/img/face_3.svg" class="user_3" alt="Пользователь 3">
-                            <img src="../src/img/face_4.svg" class="user_4" alt="Пользователь 4">
+                            <img src="${face_1}" class="user_1" alt="Пользователь 1">
+                            <img src="${face_2}" class="user_2" alt="Пользователь 2">
+                            <img src="${face_3}" class="user_3" alt="Пользователь 3">
+                            <img src="${face_4}" class="user_4" alt="Пользователь 4">
                         </div>
                         <p class="products-rewiev__p products-rewiev__p_attr">15k Well Reviews</p>
                     </div>
@@ -57,13 +78,13 @@ class Products extends elemHTML {
                     </div>
                     <div class="main-beats">
                         <div class="star_up">
-                            <img src="../src/img/star.svg" alt="Логотип звезды"></img>
+                            <img src="${star}" alt="Логотип звезды"></img>
                         </div>
                         <div class="read-beats">
-                            <img src="../src/img/earphone_main.svg" alt="Логотип наушников">
+                            <img src="${earphone_main}" alt="Логотип наушников">
                         </div>
                         <div class="star_down">
-                            <img src="../src/img/star.svg" alt="Логотип звезды"></img>
+                            <img src="${star}" alt="Логотип звезды"></img>
                         </div>
                     </div>
                 </div>
@@ -77,9 +98,9 @@ class Products extends elemHTML {
                 <div class="section-featured-products-left">
                     <h2 class="title_primary__h2">Apple wireless Airpod</h2>
                     <div class="section-featured-products__img">
-                        <img src="../src/img/earphone_1.svg" alt="Наушники 1">
-                        <img src="../src/img/earphone_2.svg" class="featured-products__img_center" alt="Наушники 2">
-                        <img src="../src/img/earphone_3.svg" alt="Наушники 3">
+                        <img src="${earphone_1}" alt="Наушники 1">
+                        <img src="${earphone_2}" class="featured-products__img_center" alt="Наушники 2">
+                        <img src="${earphone_3}" alt="Наушники 3">
                     </div>
                     <p class="price__p price__p_indent">Price:<span class="price__span">&nbsp $45.99</span></p>
                 </div>
@@ -112,7 +133,7 @@ class Products extends elemHTML {
                             <div class="products-main-block">
                                 <div class="products-main-block-foto">
                                     <div class="products-main-block-foto-discount">Save 60 %</div>
-                                    <img src="../src/img/earphone_4.svg" alt="Логотип наушников">
+                                    <img src="${earphone_4}" alt="Логотип наушников">
                                 </div>
                                 <div class="products-main-block__descr">
                                     <p class="discription_primary__p products-main-block__descr__p_color">Boat Rockerz
@@ -120,11 +141,11 @@ class Products extends elemHTML {
                                     </p>
                                     <div class="products-main-block__descr__raiting">
                                         <div class="products-main-block__descr__raiting_star">
-                                            <img src="../src/img/raiting.svg" alt="Рейтинг">
-                                            <img src="../src/img/raiting.svg" alt="Рейтинг">
-                                            <img src="../src/img/raiting.svg" alt="Рейтинг">
-                                            <img src="../src/img/raiting.svg" alt="Рейтинг">
-                                            <img src="../src/img/raiting.svg" alt="Рейтинг">
+                                            <img src="${raiting}" alt="Рейтинг">
+                                            <img src="${raiting}" alt="Рейтинг">
+                                            <img src="${raiting}" alt="Рейтинг">
+                                            <img src="${raiting}" alt="Рейтинг">
+                                            <img src="${raiting}" alt="Рейтинг">
                                         </div>
                                         <p class="raiting-descr">75 Reviews</p>
                                     </div>
@@ -136,18 +157,18 @@ class Products extends elemHTML {
                         <div class="products-main">
                             <div class="products-main-block section-top-sellers_product-2__color">
                                 <div class="products-main-block-foto">
-                                    <img src="../src/img/earphone_5.svg" alt="Логотип наушников">
+                                    <img src="${earphone_5}" alt="Логотип наушников">
                                 </div>
                                 <div class="products-main-block__descr">
                                     <p class="discription_primary__p products-main-block__descr__p_color">Boat kerz 234
                                     </p>
                                     <div class="products-main-block__descr__raiting">
                                         <div class="products-main-block__descr__raiting_star">
-                                            <img src="../src/img/raiting.svg" alt="Рейтинг">
-                                            <img src="../src/img/raiting.svg" alt="Рейтинг">
-                                            <img src="../src/img/raiting.svg" alt="Рейтинг">
-                                            <img src="../src/img/raiting.svg" alt="Рейтинг">
-                                            <img src="../src/img/raiting.svg" alt="Рейтинг">
+                                            <img src="${raiting}" alt="Рейтинг">
+                                            <img src="${raiting}" alt="Рейтинг">
+                                            <img src="${raiting}" alt="Рейтинг">
+                                            <img src="${raiting}" alt="Рейтинг">
+                                            <img src="${raiting}" alt="Рейтинг">
                                         </div>
                                         <p class="raiting-descr">75 Reviews</p>
                                     </div>
@@ -163,7 +184,7 @@ class Products extends elemHTML {
                                         class="products-main-block-foto-discount section-top-sellers_product-3__discount_color">
                                         Save 40
                                         %</div>
-                                    <img src="../src/img/earphone_6.svg" alt="Логотип наушников">
+                                    <img src="${earphone_6}" alt="Логотип наушников">
                                 </div>
                                 <div class="products-main-block__descr">
                                     <p class="discription_primary__p products-main-block__descr__p_color">Boat Rockerz
@@ -171,11 +192,11 @@ class Products extends elemHTML {
                                     </p>
                                     <div class="products-main-block__descr__raiting">
                                         <div class="products-main-block__descr__raiting_star">
-                                            <img src="../src/img/raiting.svg" alt="Рейтинг">
-                                            <img src="../src/img/raiting.svg" alt="Рейтинг">
-                                            <img src="../src/img/raiting.svg" alt="Рейтинг">
-                                            <img src="../src/img/raiting.svg" alt="Рейтинг">
-                                            <img src="../src/img/raiting.svg" alt="Рейтинг">
+                                            <img src="${raiting}" alt="Рейтинг">
+                                            <img src="${raiting}" alt="Рейтинг">
+                                            <img src="${raiting}" alt="Рейтинг">
+                                            <img src="${raiting}" alt="Рейтинг">
+                                            <img src="${raiting}" alt="Рейтинг">
                                         </div>
                                         <p class="raiting-descr">75 Reviews</p>
                                     </div>
@@ -185,7 +206,7 @@ class Products extends elemHTML {
                             <button class="btns_rect products-main__btn">Add to cart</button>
                         </div>
                     </div>
-                    <button class="arrow_btn"><img src="../src/img/Arrows_right.svg"
+                    <button class="arrow_btn"><img src="${arrow_right}"
                             alt="Кнопка стрелки вправо"></button>
                 </div>
             </div>
@@ -204,7 +225,7 @@ class Products extends elemHTML {
                         <div class="products-main-block section-trending-earphones_product-1__color">
                             <div class="products-main-block-foto">
                                 <div class="products-main-block-foto-discount">Save 60 %</div>
-                                <img src="../src/img/earphone_7.svg" alt="Логотип наушников">
+                                <img src="${earphone_7}" alt="Логотип наушников">
                             </div>
                             <div class="products-main-block__descr">
                                 <p class="discription_primary__p products-main-block__descr__p_color">Boat Rockerz
@@ -212,11 +233,11 @@ class Products extends elemHTML {
                                 </p>
                                 <div class="products-main-block__descr__raiting">
                                     <div class="products-main-block__descr__raiting_star">
-                                        <img src="../src/img/raiting.svg" alt="Рейтинг">
-                                        <img src="../src/img/raiting.svg" alt="Рейтинг">
-                                        <img src="../src/img/raiting.svg" alt="Рейтинг">
-                                        <img src="../src/img/raiting.svg" alt="Рейтинг">
-                                        <img src="../src/img/raiting.svg" alt="Рейтинг">
+                                        <img src="${raiting}" alt="Рейтинг">
+                                        <img src="${raiting}" alt="Рейтинг">
+                                        <img src="${raiting}" alt="Рейтинг">
+                                        <img src="${raiting}" alt="Рейтинг">
+                                        <img src="${raiting}" alt="Рейтинг">
                                     </div>
                                     <p class="raiting-descr">75 Reviews</p>
                                 </div>
@@ -228,18 +249,18 @@ class Products extends elemHTML {
                     <div class="products-main">
                         <div class="products-main-block section-trending-earphones_product-2__color">
                             <div class="products-main-block-foto">
-                                <img src="../src/img/earphone_8.svg" alt="Логотип наушников">
+                                <img src="${earphone_8}" alt="Логотип наушников">
                             </div>
                             <div class="products-main-block__descr">
                                 <p class="discription_primary__p products-main-block__descr__p_color">Boat kerz 234
                                 </p>
                                 <div class="products-main-block__descr__raiting">
                                     <div class="products-main-block__descr__raiting_star">
-                                        <img src="../src/img/raiting.svg" alt="Рейтинг">
-                                        <img src="../src/img/raiting.svg" alt="Рейтинг">
-                                        <img src="../src/img/raiting.svg" alt="Рейтинг">
-                                        <img src="../src/img/raiting.svg" alt="Рейтинг">
-                                        <img src="../src/img/raiting.svg" alt="Рейтинг">
+                                        <img src="${raiting}" alt="Рейтинг">
+                                        <img src="${raiting}" alt="Рейтинг">
+                                        <img src="${raiting}" alt="Рейтинг">
+                                        <img src="${raiting}" alt="Рейтинг">
+                                        <img src="${raiting}" alt="Рейтинг">
                                     </div>
                                     <p class="raiting-descr">75 Reviews</p>
                                 </div>
@@ -255,7 +276,7 @@ class Products extends elemHTML {
                                     class="products-main-block-foto-discount section-trending-earphones_product-3__discount_color">
                                     Save 40
                                     %</div>
-                                <img src="../src/img/earphone_9.svg" alt="Логотип наушников">
+                                <img src="${earphone_9}" alt="Логотип наушников">
                             </div>
                             <div class="products-main-block__descr">
                                 <p class="discription_primary__p products-main-block__descr__p_color">Boat Rockerz
@@ -263,11 +284,11 @@ class Products extends elemHTML {
                                 </p>
                                 <div class="products-main-block__descr__raiting">
                                     <div class="products-main-block__descr__raiting_star">
-                                        <img src="../src/img/raiting.svg" alt="Рейтинг">
-                                        <img src="../src/img/raiting.svg" alt="Рейтинг">
-                                        <img src="../src/img/raiting.svg" alt="Рейтинг">
-                                        <img src="../src/img/raiting.svg" alt="Рейтинг">
-                                        <img src="../src/img/raiting.svg" alt="Рейтинг">
+                                        <img src="${raiting}" alt="Рейтинг">
+                                        <img src="${raiting}" alt="Рейтинг">
+                                        <img src="${raiting}" alt="Рейтинг">
+                                        <img src="${raiting}" alt="Рейтинг">
+                                        <img src="${raiting}" alt="Рейтинг">
                                     </div>
                                     <p class="raiting-descr">75 Reviews</p>
                                 </div>
@@ -277,7 +298,7 @@ class Products extends elemHTML {
                         <button class="btns_rect products-main__btn">Add to cart</button>
                     </div>
                 </div>
-                <button class="arrow_btn"><img src="../src/img/Arrows_right.svg" alt="Кнопка стрелки вправо"></button>
+                <button class="arrow_btn"><img src="${arrow_right}" alt="Кнопка стрелки вправо"></button>
             </div>
         </div>
         <!-- New Launches -->
@@ -287,12 +308,12 @@ class Products extends elemHTML {
                 <div class="section-new-launches">
                     <!-- -------- section-new-launches-left --------- -->
                     <div class="section-new-launches-left">
-                        <button class="arrow_btn_circ"><img src="../src/img/btn_ left_arrow.svg" alt="Стрелка"></button>
+                        <button class="arrow_btn_circ"><img src="${btn_left_arrow}" alt="Стрелка"></button>
                         <div class="section-new-launches-left__earhpones">
-                            <img class="section-new-launches-left__earhpones_img" src="../src/img/earphone_10.svg"
+                            <img class="section-new-launches-left__earhpones_img" src="${earphone_10}"
                                 alt="Наушники">
                             <img class="section-new-launches-left__earhpones_img section-new-launches-left__earhpones_img_top"
-                                src="../src/img/earphone_11.svg" alt="Наушники">
+                                src="${earphone_11}" alt="Наушники">
                         </div>
                     </div>
                     <!-- -------- section-new-launches-right --------- -->
@@ -317,7 +338,7 @@ class Products extends elemHTML {
                                 <a href="#" class="link_primary">Explore More</a>
                             </div>
                         </div>
-                        <button class="arrow_btn_circ"><img src="../src/img/btn_ right_arrow.svg"
+                        <button class="arrow_btn_circ"><img src="${btn_right_arrow}"
                                 alt="Стрелка"></button>
                     </div>
                 </div>

@@ -1,4 +1,7 @@
 import elemHTML from "../elemHTML.js";
+import facebook from "../../img/facebook_icon.svg"
+import twitter from "../../img/twitter_icon.svg"
+import instagram from "../../img/instagram_icon.svg"
 
 class Footer extends elemHTML {
 
@@ -53,9 +56,9 @@ class Footer extends elemHTML {
                 </div>
                 <div class="end-right">
                     <ul class="end-right_ul">
-                        <li><a href="#"><img src="../src/img/facebook_icon.svg" alt="Иконка facebook"></a></li>
-                        <li><a href="#"><img src="../src/img/twitter_icon.svg" alt="Иконка twitter"></a></li>
-                        <li><a href="#"><img src="../src/img/instagram_icon.svg" alt="Иконка instagram"></a></li>
+                        <li><a href="#"><img src="${facebook}" alt="Иконка facebook"></a></li>
+                        <li><a href="#"><img src="${twitter}" alt="Иконка twitter"></a></li>
+                        <li><a href="#"><img src="${instagram}" alt="Иконка instagram"></a></li>
                     </ul>
                 </div>
             </section>
