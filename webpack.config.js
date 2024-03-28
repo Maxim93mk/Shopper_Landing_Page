@@ -41,7 +41,7 @@ module.exports = (env) => {
               {
                 test:/\.html$/,
                 use:['html-loader'],
-              }
+              },
             ],
           },
           devServer: {

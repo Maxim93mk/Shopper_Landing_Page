@@ -1,5 +1,5 @@
 import scss from './scss/style.scss';
- import { createmobileMenu } from './js/mobile-menu.js';
+import { createmobileMenu } from './js/mobile-menu.js';
 import MobileDisplay from './js/section/mobile-menu-section.js';
 import { productsInfoListPick, productsInfoListWatches } from './js/data/data-tabs.js';
 import createWelcomePopup from './js/welcome-popup.js'
@@ -9,7 +9,6 @@ import Footer from './js/section/footer.js';
 import tabs from './js/tabs.js';
 
 // const getTabs = require('./js/get-cards.js');
-
 createWelcomePopup();
 
 const header = new Header();
